@@ -132,4 +132,53 @@ input::placeholder {
 .meetingBlock__image {
   margin-top: -40px;
   pointer-events: none;
+}
+
+.sections {
+  display: grid;
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 10%;
+  width: 80vw;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 22px;
+}
+.sections__title {
+  align-items: center;
+  height: 50px;
+}
+.sections__categories {
+  display: flex;
+  justify-content: space-around;
+}
+.sections__categories__block {
+  background-color: #949494;
+  border-radius: 15px;
+  height: 150px;
+  width: 220px;
+  display: grid;
+  transition: 1s;
+}
+.sections__categories__block__title {
+  text-align: left;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.sections__categories__block__content {
+  display: flex;
+  justify-content: space-around;
+}
+.sections__categories__block__content__quantity {
+  display: flex;
+  align-items: center;
+}
+.sections__categories__block__content__img__size {
+  height: 79px;
+  width: 90px;
+}
+.sections__categories__block:hover {
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.4));
 }/*# sourceMappingURL=globals.css.map */

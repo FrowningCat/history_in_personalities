@@ -29,8 +29,10 @@ $mainWeightText: 600;
 $mainSizeText: 18px;
 $mainLineHeightText: 20px;
 
-$sectionHeadersWeightText: 700;
-$sectionHeadersSizeText: 24px;
+$sectionMainHeadersWeightText: 700;
+$sectionAdditionalHeadersWeightText: 600;
+$sectionMainHeadersSizeText: 30px;
+$sectionAdditionalHeadersSizeText: 22px;
 $sectionHeadersHeightText: 22px;
 
 $footerWeightText: 400;
@@ -165,5 +167,56 @@ input::placeholder {
     &__image {
         margin-top: -40px;
         pointer-events: none;
+    }
+}
+
+.sections {
+    display: grid;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 10%;
+    width: 80vw;
+    text-align: center;
+    font-weight: $sectionMainHeadersWeightText;
+    font-size: $sectionMainHeadersSizeText;
+    line-height: $sectionHeadersHeightText;
+    &__title {
+        align-items: center;
+        height: 50px;
+    }
+    &__categories {
+        display: flex;
+        justify-content: space-around;
+        &__block {
+            background-color: #949494;
+            border-radius: 15px;
+            height: 150px;
+            width: 220px;
+            display: grid;
+            transition: 1s;
+            &__title {
+                text-align: left;
+                margin: 10px;
+                font-weight: $sectionAdditionalHeadersWeightText;
+                font-size: $sectionAdditionalHeadersSizeText;
+            }
+            &__content {
+                display: flex;
+                justify-content: space-around;
+                &__quantity {
+                    display: flex;
+                    align-items: center;
+                }
+                &__img {
+                    &__size {
+                        height: 79px;
+                        width: 90px;
+                    }
+                }
+            }
+        }
+        &__block:hover {
+            filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 40%));
+        }
     }
 }

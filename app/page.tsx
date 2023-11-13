@@ -1,6 +1,10 @@
 import Image from 'next/image';
-import search from '../public/Search.png';
+import search from '../public/search.png';
 import imageTop from '../public/imageTop.png';
+import book from '../public/book.png';
+import teacher from '../public/teacher.png';
+import tests from '../public/tests.png';
+import categories from '../public/categories.png';
 
 export default function Home() {
     return (
@@ -33,26 +37,104 @@ export default function Home() {
                     </div>
                 </div>
             </header>
-            <div className="meetingBlock">
-                <div className="meetingBlock__textBlock">
-                    <div className="meetingBlock__textBlock__header">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Fugiat est incidunt, culpa recusandae voluptas
-                        consectetur.
+            <main>
+                <div className="meetingBlock">
+                    <div className="meetingBlock__textBlock">
+                        <div className="meetingBlock__textBlock__header">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Fugiat est incidunt, culpa recusandae voluptas
+                            consectetur.
+                        </div>
+                        <div className="meetingBlock__textBlock__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Itaque ipsum quo fugit aliquam impedit alias
+                            consectetur officia sequi sint consequatur.
+                        </div>
+                        <div className="meetingBlock__textBlock__button link">
+                            Доступниые курсы
+                        </div>
                     </div>
-                    <div className="meetingBlock__textBlock__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Itaque ipsum quo fugit aliquam impedit alias consectetur
-                        officia sequi sint consequatur.
-                    </div>
-                    <div className="meetingBlock__textBlock__button link">
-                        Доступниые курсы
+                    <div className="meetingBlock__image">
+                        <Image src={imageTop} alt="imageTop" />
                     </div>
                 </div>
-                <div className="meetingBlock__image">
-                    <Image src={imageTop} alt="imageTop" />
+                <div className="sections">
+                    <div className="sections__title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolorum, suscipit!
+                    </div>
+                    <div className="sections__categories">
+                        <div className="sections__categories__block link">
+                            <div className="sections__categories__block__title">
+                                Статьи
+                            </div>
+                            <div className="sections__categories__block__content">
+                                <div className="sections__categories__block__content__quantity">
+                                    0+
+                                </div>
+                                <div className="sections__categories__block__content__img">
+                                    <Image
+                                        src={book}
+                                        alt="book"
+                                        className="sections__categories__block__content__img__size"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sections__categories__block link">
+                            <div className="sections__categories__block__title">
+                                Тесты
+                            </div>
+                            <div className="sections__categories__block__content">
+                                <div className="sections__categories__block__content__quantity">
+                                    0+
+                                </div>
+                                <div className="sections__categories__block__content__img">
+                                    <Image
+                                        src={teacher}
+                                        alt="teacher"
+                                        className="sections__categories__block__content__img__size"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sections__categories__block link">
+                            <div className="sections__categories__block__title">
+                                Дополнительные материалы
+                            </div>
+                            <div className="sections__categories__block__content">
+                                <div className="sections__categories__block__content__quantity">
+                                    0+
+                                </div>
+                                <div className="sections__categories__block__content__img">
+                                    <Image
+                                        src={tests}
+                                        alt="tests"
+                                        className="sections__categories__block__content__img__size"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="sections__categories__block link">
+                            <div className="sections__categories__block__title">
+                                Личный прогресс
+                            </div>
+                            <div className="sections__categories__block__content">
+                                <div className="sections__categories__block__content__quantity">
+                                    Нет
+                                </div>
+                                <div className="sections__categories__block__content__img">
+                                    <Image
+                                        src={categories}
+                                        alt="categories"
+                                        className="sections__categories__block__content__img__size"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </main>
         </div>
     );
 }
