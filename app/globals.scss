@@ -4,20 +4,25 @@ $mainTextColor: #404040;
 $mainBackgroundColor: #7a7a7a;
 $selectedTextColor: #0052b4;
 $buttonBackgroundColor: #0052b4;
+$inputTextColor: #081627;
 
 $mainFontFamily: 'Manrope';
 
-$headerWeightText: 600;
-$headerSizeText: 16px;
-$headerLineHeightText: 22px;
+$headerWeightText: 400;
+$headerSizeText: 20px;
+$headerLineHeightText: 20px;
+
+$inputWeightText: 400;
+$inputSizeText: 16px;
+$inputLineHeightText: 22px;
 
 $titleWeightText: 700;
 $titleSizeText: 44px;
 $titleLineHeightText: 53px;
 
-$buttonWeightText: 600;
-$buttonSizeText: 16px;
-$buttonLineHeightText: 22px;
+$buttonWeightText: 400;
+$buttonSizeText: 21px;
+$buttonLineHeightText: 20px;
 
 $mainWeightText: 600;
 $mainSizeText: 16px;
@@ -36,6 +41,46 @@ $footerLineHeightText: 19px;
     padding: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.button {
+    display: grid;
+    border: 1px solid black;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.button:hover {
+    background-color: #bdc0c3;
+    font-weight: $buttonWeightText;
+    font-size: $buttonSizeText;
+    line-height: $buttonLineHeightText;
+}
+
+input {
+    color: $inputTextColor;
+    background-color: $mainBackgroundColor;
+    font-weight: $inputWeightText;
+    font-size: $inputSizeText;
+    line-height: $inputLineHeightText;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: $mainTextColor;
+}
+
 .lending {
     font-family: $mainFontFamily;
     color: $mainTextColor;
@@ -44,4 +89,39 @@ $footerLineHeightText: 19px;
     font-size: $mainSizeText;
     line-height: $mainLineHeightText;
     height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: $headerWeightText;
+    font-size: $headerSizeText;
+    line-height: $headerLineHeightText;
+    &__sections {
+        width: 40vw;
+        display: flex;
+        gap: 60px;
+    }
+    &__searchAndLogin {
+        width: 40vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        &__search {
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+            padding: 0px 10px;
+            &__search {
+                height: 19px;
+                width: 20px;
+            }
+        }
+    }
 }
