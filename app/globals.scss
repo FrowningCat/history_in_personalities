@@ -21,11 +21,12 @@ $titleSizeText: 44px;
 $titleLineHeightText: 53px;
 
 $buttonWeightText: 400;
-$buttonSizeText: 21px;
+$buttonSizeText: 20px;
+$buttonSizeTextHover: 21px;
 $buttonLineHeightText: 20px;
 
 $mainWeightText: 600;
-$mainSizeText: 16px;
+$mainSizeText: 18px;
 $mainLineHeightText: 20px;
 
 $sectionHeadersWeightText: 700;
@@ -50,6 +51,11 @@ a {
     cursor: pointer;
 }
 
+.textHover:hover {
+    box-sizing: content-box;
+    border-bottom: 1px solid $mainTextColor;
+}
+
 .button {
     display: grid;
     border: 1px solid black;
@@ -63,7 +69,7 @@ a {
 .button:hover {
     background-color: #bdc0c3;
     font-weight: $buttonWeightText;
-    font-size: $buttonSizeText;
+    font-size: $buttonSizeTextHover;
     line-height: $buttonLineHeightText;
 }
 
@@ -88,7 +94,8 @@ input::placeholder {
     font-weight: $mainWeightText;
     font-size: $mainSizeText;
     line-height: $mainLineHeightText;
-    height: 100vh;
+    cursor: default;
+    height: 200vh;
 }
 
 .navigation {
@@ -123,5 +130,42 @@ input::placeholder {
                 width: 20px;
             }
         }
+    }
+}
+
+.meetingBlock {
+    display: flex;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 10%;
+    &__textBlock {
+        display: grid;
+        height: 1px;
+        gap: 20px;
+        &__header {
+            font-weight: $titleWeightText;
+            font-size: $titleSizeText;
+            line-height: $titleLineHeightText;
+        }
+        &__button {
+            display: grid;
+            border: 1px solid black;
+            height: 40px;
+            width: 200px;
+            text-align: center;
+            align-items: center;
+            transition: 1s;
+            font-weight: $buttonWeightText;
+            font-size: $buttonSizeText;
+        }
+        &__button:hover {
+            background-color: #bdc0c3;
+            font-size: $buttonSizeTextHover;
+            line-height: $buttonLineHeightText;
+        }
+    }
+    &__image {
+        margin-top: -40px;
+        pointer-events: none;
     }
 }
