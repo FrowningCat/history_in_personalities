@@ -19,7 +19,7 @@ export default function Home() {
                         <Image
                             src={search}
                             alt="search"
-                            className="navigation__searchAndLogin__search__search"
+                            className="navigation__searchAndLogin__search__search link"
                         />
                     </div>
                     <div className="button link">Регистрация</div>
