@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+
+$mainTextColor: #404040;
+$mainBackgroundColor: #7a7a7a;
+$selectedTextColor: #0052b4;
+$buttonBackgroundColor: #0052b4;
+
+$mainFontFamily: 'Manrope';
+
+$headerWeightText: 600;
+$headerSizeText: 16px;
+$headerLineHeightText: 22px;
+
+$titleWeightText: 700;
+$titleSizeText: 44px;
+$titleLineHeightText: 53px;
+
+$buttonWeightText: 600;
+$buttonSizeText: 16px;
+$buttonLineHeightText: 22px;
+
+$mainWeightText: 600;
+$mainSizeText: 16px;
+$mainLineHeightText: 20px;
+
+$sectionHeadersWeightText: 700;
+$sectionHeadersSizeText: 24px;
+$sectionHeadersHeightText: 22px;
+
+$footerWeightText: 400;
+$footerSizeText: 14px;
+$footerLineHeightText: 19px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lending {
+    font-family: $mainFontFamily;
+    color: $mainTextColor;
+    background-color: $mainBackgroundColor;
+    font-weight: $mainWeightText;
+    font-size: $mainSizeText;
+    line-height: $mainLineHeightText;
+    height: 100vh;
+}

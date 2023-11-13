@@ -1,1 +1,15 @@
-/*# sourceMappingURL=globals.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lending {
+  font-family: "Manrope";
+  color: #404040;
+  background-color: #7a7a7a;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  height: 100vh;
+}/*# sourceMappingURL=globals.css.map */
