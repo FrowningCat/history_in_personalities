@@ -13,8 +13,8 @@ export default function Home() {
                         Дополнительные материалы
                     </div>
                 </div>
-                <div className="navigation__searchAndLogin">
-                    <div className="navigation__searchAndLogin__search">
+                <div className="navigation__searchAndButtons">
+                    <div className="navigation__searchAndButtons__search">
                         <input
                             placeholder="Поиск личности..."
                             type="text"
@@ -22,11 +22,15 @@ export default function Home() {
                         <Image
                             src={search}
                             alt="search"
-                            className="navigation__searchAndLogin__search__search link"
+                            className="navigation__searchAndButtons__search__img link"
                         />
                     </div>
-                    <div className="button link">Регистрация</div>
-                    <div className="button link">Авторизация</div>
+                    <div className="navigation__searchAndButtons__buttons link">
+                        Регистрация
+                    </div>
+                    <div className="navigation__searchAndButtons__buttons link">
+                        Авторизация
+                    </div>
                 </div>
             </header>
             <div className="meetingBlock">
