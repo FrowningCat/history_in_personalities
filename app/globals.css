@@ -15,7 +15,7 @@ a {
 
 .textHover:hover {
   box-sizing: content-box;
-  border-bottom: 1px solid #404040;
+  border-bottom: 1px solid #081627;
 }
 
 input {
@@ -74,7 +74,7 @@ input::placeholder {
 .navigation__searchAndButtons__search {
   display: flex;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid #081627;
   padding: 0px 10px;
 }
 .navigation__searchAndButtons__search__img {
@@ -83,7 +83,7 @@ input::placeholder {
 }
 .navigation__searchAndButtons__buttons {
   display: grid;
-  border: 1px solid black;
+  border: 1px solid #081627;
   height: 40px;
   width: 140px;
   text-align: center;
@@ -115,7 +115,7 @@ input::placeholder {
 }
 .meetingBlock__textBlock__button {
   display: grid;
-  border: 1px solid black;
+  border: 1px solid #081627;
   height: 40px;
   width: 200px;
   text-align: center;
@@ -180,5 +180,31 @@ input::placeholder {
   width: 90px;
 }
 .sections__categories__block:hover {
-  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
+}
+
+.contacts {
+  position: absolute;
+  margin-top: 1400px;
+}
+.contacts__footer {
+  border-top: 1px solid #081627;
+  display: flex;
+  width: 80vw;
+  padding-top: 30px;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+.contacts__footer__text {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+}
+.contacts__footer__text__copyleft {
+  margin-right: 5px;
+}
+.contacts__footer__image {
+  display: flex;
+  width: 10vw;
+  justify-content: space-between;
 }/*# sourceMappingURL=globals.css.map */

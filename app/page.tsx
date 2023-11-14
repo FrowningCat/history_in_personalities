@@ -5,6 +5,11 @@ import book from '../public/book.png';
 import teacher from '../public/teacher.png';
 import tests from '../public/tests.png';
 import categories from '../public/categories.png';
+import copyleft from '../public/copyleft.png';
+import email from '../public/email.png';
+import youTube from '../public/youTube.png';
+import tg from '../public/tg.png';
+import whatsApp from '../public/whatsApp.png';
 
 export default function Home() {
     return (
@@ -135,6 +140,28 @@ export default function Home() {
                     </div>
                 </div>
             </main>
+            <footer className="contacts">
+                <div className="contacts__footer">
+                    <div className="contacts__footer__text">
+                        <text>
+                            <Image
+                                src={copyleft}
+                                alt="copyleft"
+                                className="contacts__footer__text__copyleft"
+                            />
+                            2023
+                        </text>
+                        <text className="link">Политика конфеденсальности</text>
+                        <text className="link">Команда сервиса</text>
+                    </div>
+                    <div className="contacts__footer__image">
+                        <Image src={email} alt="email" className="link" />
+                        <Image src={youTube} alt="youTube" className="link" />
+                        <Image src={tg} alt="tg" className="link" />
+                        <Image src={whatsApp} alt="whatsApp" className="link" />
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 }
