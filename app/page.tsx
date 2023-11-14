@@ -14,16 +14,16 @@ import whatsApp from '../public/landing/whatsApp.png';
 export default function Home() {
     return (
         <div className="lending">
-            <header className="navigation">
-                <div className="navigation__sections">
+            <header className="lending__navigation">
+                <div className="lending__navigation__sections">
                     <div className="link textHover">Статьи</div>
                     <div className="link textHover">Тесты</div>
                     <div className="link textHover">
                         Дополнительные материалы
                     </div>
                 </div>
-                <div className="navigation__searchAndButtons">
-                    <div className="navigation__searchAndButtons__search">
+                <div className="lending__navigation__searchAndButtons">
+                    <div className="lending__navigation__searchAndButtons__search">
                         <input
                             placeholder="Поиск личности..."
                             type="text"
@@ -31,108 +31,108 @@ export default function Home() {
                         <Image
                             src={search}
                             alt="search"
-                            className="navigation__searchAndButtons__search__img link"
+                            className="lending__navigation__searchAndButtons__search__img link"
                         />
                     </div>
-                    <div className="navigation__searchAndButtons__buttons link">
+                    <div className="lending__navigation__searchAndButtons__buttons link">
                         Регистрация
                     </div>
-                    <div className="navigation__searchAndButtons__buttons link">
+                    <div className="lending__navigation__searchAndButtons__buttons link">
                         Авторизация
                     </div>
                 </div>
             </header>
             <main>
-                <div className="meetingBlock">
-                    <div className="meetingBlock__textBlock">
-                        <div className="meetingBlock__textBlock__header">
+                <div className="lending__meetingBlock">
+                    <div className="lending__meetingBlock__textBlock">
+                        <div className="lending__meetingBlock__textBlock__header">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Fugiat est incidunt, culpa recusandae voluptas
                             consectetur.
                         </div>
-                        <div className="meetingBlock__textBlock__text">
+                        <div className="lending__meetingBlock__textBlock__text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Itaque ipsum quo fugit aliquam impedit alias
                             consectetur officia sequi sint consequatur.
                         </div>
-                        <div className="meetingBlock__textBlock__button link">
+                        <div className="lending__meetingBlock__textBlock__button link">
                             Доступниые курсы
                         </div>
                     </div>
-                    <div className="meetingBlock__image">
+                    <div className="lending__meetingBlock__image">
                         <Image src={imageTop} alt="imageTop" />
                     </div>
                 </div>
-                <div className="sections">
-                    <div className="sections__title">
+                <div className="lending__sections">
+                    <div className="lending__sections__title">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Dolorum, suscipit!
                     </div>
-                    <div className="sections__categories">
-                        <div className="sections__categories__block link">
-                            <div className="sections__categories__block__title">
+                    <div className="lending__sections__categories">
+                        <div className="lending__sections__categories__block link">
+                            <div className="lending__sections__categories__block__title">
                                 Статьи
                             </div>
-                            <div className="sections__categories__block__content">
-                                <div className="sections__categories__block__content__quantity">
+                            <div className="lending__sections__categories__block__content">
+                                <div className="lending__sections__categories__block__content__quantity">
                                     0+
                                 </div>
-                                <div className="sections__categories__block__content__img">
+                                <div className="lending__sections__categories__block__content__img">
                                     <Image
                                         src={book}
                                         alt="book"
-                                        className="sections__categories__block__content__img__size"
+                                        className="lending__sections__categories__block__content__img__size"
                                     />
                                 </div>
                             </div>
                         </div>
-                        <div className="sections__categories__block link">
-                            <div className="sections__categories__block__title">
+                        <div className="lending__sections__categories__block link">
+                            <div className="lending__sections__categories__block__title">
                                 Тесты
                             </div>
-                            <div className="sections__categories__block__content">
-                                <div className="sections__categories__block__content__quantity">
+                            <div className="lending__sections__categories__block__content">
+                                <div className="lending__sections__categories__block__content__quantity">
                                     0+
                                 </div>
-                                <div className="sections__categories__block__content__img">
+                                <div className="lending__sections__categories__block__content__img">
                                     <Image
                                         src={teacher}
                                         alt="teacher"
-                                        className="sections__categories__block__content__img__size"
+                                        className="lending__sections__categories__block__content__img__size"
                                     />
                                 </div>
                             </div>
                         </div>
-                        <div className="sections__categories__block link">
-                            <div className="sections__categories__block__title">
+                        <div className="lending__sections__categories__block link">
+                            <div className="lending__sections__categories__block__title">
                                 Дополнительные материалы
                             </div>
-                            <div className="sections__categories__block__content">
-                                <div className="sections__categories__block__content__quantity">
+                            <div className="lending__sections__categories__block__content">
+                                <div className="lending__sections__categories__block__content__quantity">
                                     0+
                                 </div>
-                                <div className="sections__categories__block__content__img">
+                                <div className="lending__sections__categories__block__content__img">
                                     <Image
                                         src={tests}
                                         alt="tests"
-                                        className="sections__categories__block__content__img__size"
+                                        className="lending__sections__categories__block__content__img__size"
                                     />
                                 </div>
                             </div>
                         </div>
-                        <div className="sections__categories__block link">
-                            <div className="sections__categories__block__title">
+                        <div className="lending__sections__categories__block link">
+                            <div className="lending__sections__categories__block__title">
                                 Личный прогресс
                             </div>
-                            <div className="sections__categories__block__content">
-                                <div className="sections__categories__block__content__quantity">
+                            <div className="lending__sections__categories__block__content">
+                                <div className="lending__sections__categories__block__content__quantity">
                                     Нет
                                 </div>
-                                <div className="sections__categories__block__content__img">
+                                <div className="lending__sections__categories__block__content__img">
                                     <Image
                                         src={categories}
                                         alt="categories"
-                                        className="sections__categories__block__content__img__size"
+                                        className="lending__sections__categories__block__content__img__size"
                                     />
                                 </div>
                             </div>
@@ -140,36 +140,42 @@ export default function Home() {
                     </div>
                 </div>
             </main>
-            <footer className="contacts">
-                <div className="contacts__footer">
-                    <div className="contacts__footer__text">
+            <footer className="lending__contacts">
+                <div className="lending__contacts__footer">
+                    <div className="lending__contacts__footer__text">
                         <text>
                             <Image
                                 src={copyleft}
                                 alt="copyleft"
-                                className="contacts__footer__text__copyleft"
+                                className="lending__contacts__footer__text__copyleft"
                             />
                             2023
                         </text>
-                        <text className="link">Политика конфеденсальности</text>
-                        <text className="link">Команда сервиса</text>
+                        <text className="link textHover">
+                            Политика конфеденсальности
+                        </text>
+                        <text className="link textHover">Команда сервиса</text>
                     </div>
-                    <div className="contacts__footer__image">
+                    <div className="lending__contacts__footer__image">
                         <Image
                             src={email}
                             alt="email"
-                            className="contacts__footer__image__size link"
+                            className="lending__contacts__footer__image__size link"
                         />
-                        <Image src={youTube} alt="youTube" className="link" />
+                        <Image
+                            src={youTube}
+                            alt="youTube"
+                            className="lending__contacts__footer__image__size link"
+                        />
                         <Image
                             src={tg}
                             alt="tg"
-                            className="contacts__footer__image__size link"
+                            className="lending__contacts__footer__image__size link"
                         />
                         <Image
                             src={whatsApp}
                             alt="whatsApp"
-                            className="contacts__footer__image__size link"
+                            className="lending__contacts__footer__image__size link"
                         />
                     </div>
                 </div>

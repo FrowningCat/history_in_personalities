@@ -46,8 +46,7 @@ input::placeholder {
   cursor: default;
   height: 200vh;
 }
-
-.navigation {
+.lending__navigation {
   display: flex;
   position: absolute;
   margin-top: 40px;
@@ -60,28 +59,28 @@ input::placeholder {
   font-size: 20px;
   line-height: 20px;
 }
-.navigation__sections {
+.lending__navigation__sections {
   width: 40vw;
   display: flex;
   gap: 60px;
 }
-.navigation__searchAndButtons {
+.lending__navigation__searchAndButtons {
   width: 40vw;
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
-.navigation__searchAndButtons__search {
+.lending__navigation__searchAndButtons__search {
   display: flex;
   align-items: center;
   border: 1px solid #081627;
   padding: 0px 10px;
 }
-.navigation__searchAndButtons__search__img {
+.lending__navigation__searchAndButtons__search__img {
   height: 19px;
   width: 20px;
 }
-.navigation__searchAndButtons__buttons {
+.lending__navigation__searchAndButtons__buttons {
   display: grid;
   border: 1px solid #081627;
   height: 40px;
@@ -90,30 +89,29 @@ input::placeholder {
   align-items: center;
   transition: 1s;
 }
-.navigation__searchAndButtons__buttons:hover {
+.lending__navigation__searchAndButtons__buttons:hover {
   background-color: #bdc0c3;
   font-weight: 400;
   font-size: 21px;
   line-height: 20px;
 }
-
-.meetingBlock {
+.lending__meetingBlock {
   display: flex;
   position: absolute;
   margin-top: 220px;
   margin-left: 10%;
 }
-.meetingBlock__textBlock {
+.lending__meetingBlock__textBlock {
   display: grid;
   height: 1px;
   gap: 20px;
 }
-.meetingBlock__textBlock__header {
+.lending__meetingBlock__textBlock__header {
   font-weight: 700;
   font-size: 44px;
   line-height: 53px;
 }
-.meetingBlock__textBlock__button {
+.lending__meetingBlock__textBlock__button {
   display: grid;
   border: 1px solid #081627;
   height: 40px;
@@ -124,17 +122,16 @@ input::placeholder {
   font-weight: 400;
   font-size: 20px;
 }
-.meetingBlock__textBlock__button:hover {
+.lending__meetingBlock__textBlock__button:hover {
   background-color: #bdc0c3;
   font-size: 21px;
   line-height: 20px;
 }
-.meetingBlock__image {
+.lending__meetingBlock__image {
   margin-top: -40px;
   pointer-events: none;
 }
-
-.sections {
+.lending__sections {
   display: grid;
   position: absolute;
   margin-top: 1000px;
@@ -145,15 +142,15 @@ input::placeholder {
   font-size: 30px;
   line-height: 22px;
 }
-.sections__title {
+.lending__sections__title {
   align-items: center;
   height: 50px;
 }
-.sections__categories {
+.lending__sections__categories {
   display: flex;
   justify-content: space-around;
 }
-.sections__categories__block {
+.lending__sections__categories__block {
   background-color: #949494;
   border-radius: 15px;
   height: 150px;
@@ -161,33 +158,32 @@ input::placeholder {
   display: grid;
   transition: 1s;
 }
-.sections__categories__block__title {
+.lending__sections__categories__block__title {
   text-align: left;
   margin: 10px;
   font-weight: 600;
   font-size: 22px;
 }
-.sections__categories__block__content {
+.lending__sections__categories__block__content {
   display: flex;
   justify-content: space-around;
 }
-.sections__categories__block__content__quantity {
+.lending__sections__categories__block__content__quantity {
   display: flex;
   align-items: center;
 }
-.sections__categories__block__content__img__size {
+.lending__sections__categories__block__content__img__size {
   height: 79px;
   width: 90px;
 }
-.sections__categories__block:hover {
+.lending__sections__categories__block:hover {
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
 }
-
-.contacts {
+.lending__contacts {
   position: absolute;
   margin-top: 1400px;
 }
-.contacts__footer {
+.lending__contacts__footer {
   border-top: 1px solid #081627;
   display: flex;
   width: 80vw;
@@ -195,20 +191,25 @@ input::placeholder {
   margin-left: 10%;
   justify-content: space-between;
 }
-.contacts__footer__text {
+.lending__contacts__footer__text {
   display: flex;
   width: 40vw;
   justify-content: space-between;
 }
-.contacts__footer__text__copyleft {
+.lending__contacts__footer__text__copyleft {
   margin-right: 5px;
 }
-.contacts__footer__image {
+.lending__contacts__footer__image {
   display: flex;
   width: 10vw;
   justify-content: space-between;
 }
-.contacts__footer__image__size {
+.lending__contacts__footer__image__size {
   width: 20px;
   height: 20px;
+  transition: 1s;
+}
+.lending__contacts__footer__image__size:hover {
+  width: 25px;
+  height: 25px;
 }/*# sourceMappingURL=globals.css.map */
