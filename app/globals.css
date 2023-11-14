@@ -207,4 +207,8 @@ input::placeholder {
   display: flex;
   width: 10vw;
   justify-content: space-between;
+}
+.contacts__footer__image__size {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=globals.css.map */

@@ -1,15 +1,15 @@
 import Image from 'next/image';
-import search from '../public/search.png';
-import imageTop from '../public/imageTop.png';
-import book from '../public/book.png';
-import teacher from '../public/teacher.png';
-import tests from '../public/tests.png';
-import categories from '../public/categories.png';
-import copyleft from '../public/copyleft.png';
-import email from '../public/email.png';
-import youTube from '../public/youTube.png';
-import tg from '../public/tg.png';
-import whatsApp from '../public/whatsApp.png';
+import search from '../public/landing/search.png';
+import imageTop from '../public/landing/imageTop.png';
+import book from '../public/landing/book.png';
+import teacher from '../public/landing/teacher.png';
+import tests from '../public/landing/tests.png';
+import categories from '../public/landing/categories.png';
+import copyleft from '../public/landing/copyleft.png';
+import email from '../public/landing/email.png';
+import youTube from '../public/landing/youTube.png';
+import tg from '../public/landing/tg.png';
+import whatsApp from '../public/landing/whatsApp.png';
 
 export default function Home() {
     return (
@@ -155,10 +155,22 @@ export default function Home() {
                         <text className="link">Команда сервиса</text>
                     </div>
                     <div className="contacts__footer__image">
-                        <Image src={email} alt="email" className="link" />
+                        <Image
+                            src={email}
+                            alt="email"
+                            className="contacts__footer__image__size link"
+                        />
                         <Image src={youTube} alt="youTube" className="link" />
-                        <Image src={tg} alt="tg" className="link" />
-                        <Image src={whatsApp} alt="whatsApp" className="link" />
+                        <Image
+                            src={tg}
+                            alt="tg"
+                            className="contacts__footer__image__size link"
+                        />
+                        <Image
+                            src={whatsApp}
+                            alt="whatsApp"
+                            className="contacts__footer__image__size link"
+                        />
                     </div>
                 </div>
             </footer>

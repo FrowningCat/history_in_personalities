@@ -246,6 +246,10 @@ input::placeholder {
             display: flex;
             width: 10vw;
             justify-content: space-between;
+            &__size {
+                width: 20px;
+                height: 20px;
+            }
         }
     }
 }
