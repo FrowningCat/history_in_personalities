@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #7a7a7a;
 }
 
 a {
@@ -49,8 +48,6 @@ input::placeholder {
 }
 .lending__navigation {
   display: flex;
-  position: absolute;
-  margin-top: 40px;
   height: 10vh;
   align-items: center;
   justify-content: space-around;
@@ -96,12 +93,15 @@ input::placeholder {
 }
 .lending__meetingBlock {
   display: flex;
-  position: absolute;
-  margin-top: 220px;
+  height: 90vh;
+  background: #000;
+  justify-content: space-around;
 }
 .lending__meetingBlock__textBlock {
   display: grid;
+  margin-top: 10vh;
   height: 1px;
+  align-items: center;
   gap: 20px;
 }
 .lending__meetingBlock__textBlock__header {
@@ -126,18 +126,17 @@ input::placeholder {
   line-height: 20px;
 }
 .lending__meetingBlock__image {
-  margin-top: -40px;
   pointer-events: none;
 }
 .lending__sections {
   display: grid;
-  position: absolute;
-  margin-top: 1000px;
-  margin-left: 5vw;
+  height: 90vh;
+  width: 80vw;
   text-align: center;
   font-weight: 700;
   font-size: 30px;
   line-height: 22px;
+  z-index: 3;
 }
 .lending__sections__title {
   align-items: center;
