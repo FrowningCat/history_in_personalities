@@ -1,51 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
 
 $mainTextColor: #404040;
-$mainBackgroundColor: #7a7a7a;
+$mainBackgroundColor: #000;
 $selectedTextColor: #0052b4;
 $buttonBackgroundColor: #0052b4;
 $buttonHoverColor: #bdc0c3;
 $borderColor: #081627;
 $inputTextColor: #081627;
-$categoriesBorderColor: #081627;
 
 $mainFontFamily: 'Manrope';
 
 $headerWeightText: 400;
-$headerSizeText: 20px;
-$headerLineHeightText: 20px;
+$headerSizeText: 1.4rem;
 
 $inputWeightText: 400;
-$inputSizeText: 16px;
-$inputLineHeightText: 22px;
+$inputSizeText: 1rem;
 
-$titleWeightText: 700;
-$titleSizeText: 44px;
-$titleLineHeightText: 53px;
+$dateWeightText: 700;
+$dateSizeText: 10rem;
 
 $buttonWeightText: 400;
-$buttonSizeText: 20px;
-$buttonSizeTextHover: 21px;
-$buttonLineHeightText: 20px;
+$buttonSizeText: 1.4rem;
+$buttonSizeTextHover: 1.5rem;
 
 $mainWeightText: 600;
-$mainSizeText: 18px;
-$mainLineHeightText: 20px;
+$mainSizeText: 1.2rem;
 
 $sectionMainHeadersWeightText: 700;
 $sectionAdditionalHeadersWeightText: 600;
-$sectionMainHeadersSizeText: 30px;
-$sectionAdditionalHeadersSizeText: 22px;
-$sectionHeadersHeightText: 22px;
+$sectionMainHeadersSizeText: 1.8rem;
+$sectionAdditionalHeadersSizeText: 1.5rem;
 
 $footerWeightText: 400;
-$footerSizeText: 14px;
-$footerLineHeightText: 19px;
+$footerSizeText: 0.8rem;
 
 * {
     margin: 0;
     padding: 0;
     cursor: default;
+}
+
+html {
+    font-size: 16px;
 }
 
 a {
@@ -63,4 +59,70 @@ a {
 }
 
 .lending {
+    color: $mainTextColor;
+    background-color: $mainBackgroundColor;
+    &__header {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        height: 100vh;
+        &__photo {
+            position: absolute;
+            display: flex;
+            margin-left: 22.5vw;
+            margin-top: 5vh;
+            z-index: 1;
+            pointer-events: none;
+            &__size {
+                height: 80vh;
+                width: 40vw;
+            }
+        }
+        &__text {
+            display: grid;
+            padding-top: 50vh;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 50vh;
+            gap: 20px;
+            &__header {
+                z-index: 2;
+                font-weight: $mainWeightText;
+                color: $buttonHoverColor;
+                padding-top: 20vh;
+                &__title {
+                    font-size: 4rem;
+                }
+                &__subtitle {
+                    font-size: 2rem;
+                }
+            }
+            &__date {
+                z-index: 2;
+                display: grid;
+                align-items: center;
+                text-align: center;
+                padding-top: 20vh;
+                font-weight: $dateWeightText;
+                font-size: $dateSizeText;
+                color: $selectedTextColor;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 567px) {
+    html {
+        font-size: 8px;
+    }
 }
