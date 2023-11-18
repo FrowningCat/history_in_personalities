@@ -110,7 +110,7 @@ a {
     }
     &__main {
         margin-top: 20vh;
-        height: 150vh;
+        height: 160vh;
         &__textBlok {
             width: 80vw;
             text-align: end;
@@ -132,44 +132,55 @@ a {
         &__gridBlok {
             margin-top: 10vh;
             display: grid;
-            gap: 30px;
+            gap: 20px;
             justify-content: center;
             grid-template-columns: repeat(auto-fit, 350px);
             grid-template-rows: repeat(7, 50px);
+            grid-auto-flow: row dense;
             &__block1 {
-                background: blue;
-                grid-row-start: 1;
-                grid-row-end: 4;
+                grid-row: span 4;
             }
             &__block2 {
-                background: blue;
-                grid-row-start: 1;
-                grid-row-end: 3;
+                grid-row: span 2;
             }
             &__block3 {
-                grid-row-start: 1;
-                grid-row-end: 3;
-                background: blue;
+                grid-row: span 3;
             }
             &__block4 {
-                background: blue;
-                grid-row-start: 3;
-                grid-row-end: 7;
+                grid-row: span 4;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 20px;
             }
             &__block5 {
-                background: blue;
-                grid-column-start: 3;
-                grid-row-end: 7;
+                grid-row: span 5;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 20px;
             }
             &__block6 {
-                background: blue;
-                grid-row-start: 6;
-                grid-row-end: 3;
+                grid-row: span 4;
             }
             &__block7 {
-                background: blue;
-                grid-row-start: 4;
-                grid-row-end: 7;
+                grid-row: span 2;
+            }
+            &__imgSize {
+                height: 100%;
+                width: 100%;
+                pointer-events: none;
+            }
+            &__title {
+                color: $selectedTextColor;
+                font-size: 2rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            &__text {
+                font-size: 1.3rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
             }
         }
     }

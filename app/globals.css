@@ -76,7 +76,7 @@ a {
 }
 .lending__main {
   margin-top: 20vh;
-  height: 150vh;
+  height: 160vh;
 }
 .lending__main__textBlok {
   width: 80vw;
@@ -99,45 +99,56 @@ a {
 .lending__main__gridBlok {
   margin-top: 10vh;
   display: grid;
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 350px);
   grid-template-rows: repeat(7, 50px);
+  grid-auto-flow: row dense;
 }
 .lending__main__gridBlok__block1 {
-  background: blue;
-  grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row: span 4;
 }
 .lending__main__gridBlok__block2 {
-  background: blue;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row: span 2;
 }
 .lending__main__gridBlok__block3 {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  background: blue;
+  grid-row: span 3;
 }
 .lending__main__gridBlok__block4 {
-  background: blue;
-  grid-row-start: 3;
-  grid-row-end: 7;
+  grid-row: span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .lending__main__gridBlok__block5 {
-  background: blue;
-  grid-column-start: 3;
-  grid-row-end: 7;
+  grid-row: span 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .lending__main__gridBlok__block6 {
-  background: blue;
-  grid-row-start: 6;
-  grid-row-end: 3;
+  grid-row: span 4;
 }
 .lending__main__gridBlok__block7 {
-  background: blue;
-  grid-row-start: 4;
-  grid-row-end: 7;
+  grid-row: span 2;
+}
+.lending__main__gridBlok__imgSize {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.lending__main__gridBlok__title {
+  color: #0052b4;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.lending__main__gridBlok__text {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 @media (max-width: 992px) {
