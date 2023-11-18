@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
 
-$mainTextColor: #404040;
+$mainTextColor: #999;
+$titleTextColor: white;
 $mainBackgroundColor: #000;
 $selectedTextColor: #0052b4;
 $buttonBackgroundColor: #0052b4;
 $buttonHoverColor: #bdc0c3;
 $borderColor: #081627;
-$inputTextColor: #081627;
 
 $mainFontFamily: 'Manrope';
 
@@ -61,14 +61,15 @@ a {
 .lending {
     color: $mainTextColor;
     background-color: $mainBackgroundColor;
+    padding-left: 5vw;
+    padding-right: 5vw;
     &__header {
-        margin-left: 5vw;
-        margin-right: 5vw;
+        display: flex;
+        justify-content: center;
         height: 100vh;
         &__photo {
             position: absolute;
             display: flex;
-            margin-left: 22.5vw;
             margin-top: 5vh;
             z-index: 1;
             pointer-events: none;
@@ -86,7 +87,7 @@ a {
             &__header {
                 z-index: 2;
                 font-weight: $mainWeightText;
-                color: $buttonHoverColor;
+                color: $titleTextColor;
                 padding-top: 20vh;
                 &__title {
                     font-size: 4rem;
@@ -99,11 +100,76 @@ a {
                 z-index: 2;
                 display: grid;
                 align-items: center;
-                text-align: center;
+                text-align: end;
                 padding-top: 20vh;
                 font-weight: $dateWeightText;
                 font-size: $dateSizeText;
                 color: $selectedTextColor;
+            }
+        }
+    }
+    &__main {
+        margin-top: 20vh;
+        height: 150vh;
+        &__textBlok {
+            width: 80vw;
+            text-align: end;
+            display: grid;
+            gap: 15px;
+            color: $titleTextColor;
+            margin-left: auto;
+            &__title {
+                font-size: 3.5rem;
+            }
+            &__subtitle {
+                font-size: 2rem;
+            }
+            &__text {
+                color: $mainTextColor;
+                font-size: 1.5rem;
+            }
+        }
+        &__gridBlok {
+            margin-top: 10vh;
+            display: grid;
+            gap: 30px;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fit, 350px);
+            grid-template-rows: repeat(7, 50px);
+            &__block1 {
+                background: blue;
+                grid-row-start: 1;
+                grid-row-end: 4;
+            }
+            &__block2 {
+                background: blue;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            &__block3 {
+                grid-row-start: 1;
+                grid-row-end: 3;
+                background: blue;
+            }
+            &__block4 {
+                background: blue;
+                grid-row-start: 3;
+                grid-row-end: 7;
+            }
+            &__block5 {
+                background: blue;
+                grid-column-start: 3;
+                grid-row-end: 7;
+            }
+            &__block6 {
+                background: blue;
+                grid-row-start: 6;
+                grid-row-end: 3;
+            }
+            &__block7 {
+                background: blue;
+                grid-row-start: 4;
+                grid-row-end: 7;
             }
         }
     }
