@@ -18,16 +18,12 @@ a {
   cursor: pointer;
 }
 
-.textHover:hover {
-  box-sizing: border-box;
-  border-bottom: 1px solid #081627;
-}
-
 .lending {
-  color: #999;
   background-color: #000;
+  color: #999;
   padding-left: 5vw;
   padding-right: 5vw;
+  font-size: 1.3rem;
 }
 .lending__header {
   display: flex;
@@ -59,9 +55,11 @@ a {
   padding-top: 20vh;
 }
 .lending__header__text__header__title {
+  font-weight: 600;
   font-size: 4rem;
 }
 .lending__header__text__header__subtitle {
+  font-weight: 600;
   font-size: 2rem;
 }
 .lending__header__text__date {
@@ -76,7 +74,7 @@ a {
 }
 .lending__main {
   margin-top: 20vh;
-  height: 160vh;
+  height: 100%;
 }
 .lending__main__textBlok {
   width: 80vw;
@@ -94,7 +92,6 @@ a {
 }
 .lending__main__textBlok__text {
   color: #999;
-  font-size: 1.5rem;
 }
 .lending__main__gridBlok {
   margin-top: 10vh;
@@ -103,7 +100,6 @@ a {
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 350px);
   grid-template-rows: repeat(7, 50px);
-  grid-auto-flow: row dense;
 }
 .lending__main__gridBlok__block1 {
   grid-row: span 4;
@@ -139,14 +135,13 @@ a {
   width: 100%;
   pointer-events: none;
 }
-.lending__main__gridBlok__title {
+.lending__main__gridBlok__subtitle {
   color: #0052b4;
   font-size: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 .lending__main__gridBlok__text {
-  font-size: 1.3rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }

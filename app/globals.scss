@@ -1,38 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
 
 $mainTextColor: #999;
-$titleTextColor: white;
+$headerTextColor: white;
 $mainBackgroundColor: #000;
 $selectedTextColor: #0052b4;
-$buttonBackgroundColor: #0052b4;
-$buttonHoverColor: #bdc0c3;
-$borderColor: #081627;
 
 $mainFontFamily: 'Manrope';
 
-$headerWeightText: 400;
-$headerSizeText: 1.4rem;
-
-$inputWeightText: 400;
-$inputSizeText: 1rem;
-
-$dateWeightText: 700;
-$dateSizeText: 10rem;
-
-$buttonWeightText: 400;
-$buttonSizeText: 1.4rem;
-$buttonSizeTextHover: 1.5rem;
-
 $mainWeightText: 600;
-$mainSizeText: 1.2rem;
+$mainSizeText: 1.3rem;
 
-$sectionMainHeadersWeightText: 700;
-$sectionAdditionalHeadersWeightText: 600;
-$sectionMainHeadersSizeText: 1.8rem;
-$sectionAdditionalHeadersSizeText: 1.5rem;
+$headerWeight: 600;
+$headerSize: 1.4rem;
 
-$footerWeightText: 400;
-$footerSizeText: 0.8rem;
+$titleWeight: 600;
+$titleSize: 4rem;
+$titleSizeAdditionally: 3.5rem;
+
+$subtitleWeight: 600;
+$subtitleSize: 2rem;
+$subtitleSizeAdditionally: 2rem;
+
+$dateWeight: 700;
+$dateSize: 10rem;
 
 * {
     margin: 0;
@@ -53,16 +43,12 @@ a {
     cursor: pointer;
 }
 
-.textHover:hover {
-    box-sizing: border-box;
-    border-bottom: 1px solid $borderColor;
-}
-
 .lending {
-    color: $mainTextColor;
     background-color: $mainBackgroundColor;
+    color: $mainTextColor;
     padding-left: 5vw;
     padding-right: 5vw;
+    font-size: $mainSizeText;
     &__header {
         display: flex;
         justify-content: center;
@@ -86,14 +72,16 @@ a {
             gap: 20px;
             &__header {
                 z-index: 2;
-                font-weight: $mainWeightText;
-                color: $titleTextColor;
+                font-weight: $headerWeight;
+                color: $headerTextColor;
                 padding-top: 20vh;
                 &__title {
-                    font-size: 4rem;
+                    font-weight: $titleWeight;
+                    font-size: $titleSize;
                 }
                 &__subtitle {
-                    font-size: 2rem;
+                    font-weight: $subtitleWeight;
+                    font-size: $subtitleSize;
                 }
             }
             &__date {
@@ -102,31 +90,30 @@ a {
                 align-items: center;
                 text-align: end;
                 padding-top: 20vh;
-                font-weight: $dateWeightText;
-                font-size: $dateSizeText;
+                font-weight: $dateWeight;
+                font-size: $dateSize;
                 color: $selectedTextColor;
             }
         }
     }
     &__main {
         margin-top: 20vh;
-        height: 160vh;
+        height: 100%;
         &__textBlok {
             width: 80vw;
             text-align: end;
             display: grid;
             gap: 15px;
-            color: $titleTextColor;
+            color: $headerTextColor;
             margin-left: auto;
             &__title {
-                font-size: 3.5rem;
+                font-size: $titleSizeAdditionally;
             }
             &__subtitle {
-                font-size: 2rem;
+                font-size: $subtitleSizeAdditionally;
             }
             &__text {
                 color: $mainTextColor;
-                font-size: 1.5rem;
             }
         }
         &__gridBlok {
@@ -136,7 +123,6 @@ a {
             justify-content: center;
             grid-template-columns: repeat(auto-fit, 350px);
             grid-template-rows: repeat(7, 50px);
-            grid-auto-flow: row dense;
             &__block1 {
                 grid-row: span 4;
             }
@@ -171,14 +157,13 @@ a {
                 width: 100%;
                 pointer-events: none;
             }
-            &__title {
+            &__subtitle {
                 color: $selectedTextColor;
-                font-size: 2rem;
+                font-size: $subtitleSizeAdditionally;
                 margin-left: 1rem;
                 margin-right: 1rem;
             }
             &__text {
-                font-size: 1.3rem;
                 margin-left: 1rem;
                 margin-right: 1rem;
             }

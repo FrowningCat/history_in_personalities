@@ -69,7 +69,7 @@ export default function Home() {
                         />
                     </div>
                     <div className="lending__main__gridBlok__block4">
-                        <div className="lending__main__gridBlok__title">
+                        <div className="lending__main__gridBlok__subtitle">
                             Lorem, ipsum dolor.
                         </div>
                         <div className="lending__main__gridBlok__text">
@@ -78,7 +78,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="lending__main__gridBlok__block5">
-                        <div className="lending__main__gridBlok__title">
+                        <div className="lending__main__gridBlok__subtitle">
                             Lorem, ipsum dolor.
                         </div>
                         <div className="lending__main__gridBlok__text">
