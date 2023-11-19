@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&=Manrope:wght@400;600;700&display=swap');
 
 $mainTextColor: #999;
 $headerTextColor: white;
 $mainBackgroundColor: #000;
 $selectedTextColor: #0052b4;
+$borderColor: #0052b4;
+$errorTextColor: white;
+$errorTextNotLitColor: darkgray;
+$four04MainTextColor: red;
+$four04AdditionallyTextColor: darkred;
+$neonTextColor: lightseagreen;
+$neon404Coor: deeppink;
 
 $mainFontFamily: 'Manrope';
+$errorFontFamily: 'Monoton';
 
 $mainWeightText: 600;
 $mainSizeText: 1.3rem;
@@ -24,6 +32,12 @@ $subtitleSizeAdditionally: 2rem;
 $dateWeight: 700;
 $dateSize: 10rem;
 
+$linkWeightText: 400;
+$linkSizeText: 2rem;
+
+$errorWeight: 700;
+$errorSize: 7rem;
+
 * {
     margin: 0;
     padding: 0;
@@ -39,8 +53,32 @@ a {
     text-decoration: none;
 }
 
+.link {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
 .link:hover {
     cursor: pointer;
+}
+
+.linkText {
+    color: $selectedTextColor;
+    font-weight: $linkWeightText;
+    font-size: $linkSizeText;
+}
+
+.linkText:hover {
+    border-bottom: 2px solid $borderColor;
+}
+
+.anim1 {
+    animation: flashing 3s infinite;
+}
+
+.anim2 {
+    animation: flashingTwo 3s infinite;
 }
 
 .lending {
@@ -171,6 +209,34 @@ a {
     }
 }
 
+.error {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: $mainBackgroundColor;
+    height: 100vh;
+    width: 100vw;
+    &__text {
+        font-size: $errorSize;
+        font-family: $errorFontFamily, cursive;
+        &__sh1 {
+            margin: 0.1rem;
+            text-shadow: 0 -17px 17px $neonTextColor,
+                -17px 0 17px $neonTextColor, -17px -17px 17px $neonTextColor;
+            color: $errorTextColor;
+        }
+        &__sh2 {
+            text-shadow: 0px 0px 50px $neon404Coor;
+            color: $four04MainTextColor;
+        }
+        &__zero {
+            text-shadow: none;
+            color: $four04AdditionallyTextColor;
+        }
+    }
+}
+
 @media (max-width: 992px) {
     html {
         font-size: 12px;
@@ -186,5 +252,112 @@ a {
 @media (max-width: 567px) {
     html {
         font-size: 8px;
+    }
+}
+
+@keyframes flashing {
+    0% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    24% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    25% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $errorTextNotLitColor;
+    }
+    44% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $errorTextNotLitColor;
+    }
+    45% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+}
+
+@keyframes flashingTwo {
+    0% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    14% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    15% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $errorTextNotLitColor;
+    }
+    16% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    17% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        font-size: 7rem;
+        color: $errorTextNotLitColor;
+    }
+    18% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    19% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $errorTextNotLitColor;
+    }
+    62% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $errorTextNotLitColor;
+    }
+    63% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    64% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $errorTextNotLitColor;
+    }
+    65% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
+    }
+    66% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $errorTextNotLitColor;
+    }
+    67% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            -17px -17px 17px $neonTextColor;
+        color: $errorTextColor;
     }
 }

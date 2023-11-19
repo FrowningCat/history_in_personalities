@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&=Manrope:wght@400;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +14,32 @@ a {
   text-decoration: none;
 }
 
+.link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
 .link:hover {
   cursor: pointer;
+}
+
+.linkText {
+  color: #0052b4;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.linkText:hover {
+  border-bottom: 2px solid #0052b4;
+}
+
+.anim1 {
+  animation: flashing 3s infinite;
+}
+
+.anim2 {
+  animation: flashingTwo 3s infinite;
 }
 
 .lending {
@@ -146,6 +170,33 @@ a {
   margin-right: 1rem;
 }
 
+.error {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+}
+.error__text {
+  font-size: 7rem;
+  font-family: "Monoton", cursive;
+}
+.error__text__sh1 {
+  margin: 0.1rem;
+  text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+  color: white;
+}
+.error__text__sh2 {
+  text-shadow: 0px 0px 50px deeppink;
+  color: red;
+}
+.error__text__zero {
+  text-shadow: none;
+  color: darkred;
+}
+
 @media (max-width: 992px) {
   html {
     font-size: 12px;
@@ -159,5 +210,100 @@ a {
 @media (max-width: 567px) {
   html {
     font-size: 8px;
+  }
+}
+@keyframes flashing {
+  0% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  24% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  25% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkgray;
+  }
+  44% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkgray;
+  }
+  45% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+}
+@keyframes flashingTwo {
+  0% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  14% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  15% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkgray;
+  }
+  16% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  17% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    font-size: 7rem;
+    color: darkgray;
+  }
+  18% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  19% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkgray;
+  }
+  62% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkgray;
+  }
+  63% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  64% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkgray;
+  }
+  65% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
+  }
+  66% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkgray;
+  }
+  67% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    color: white;
   }
 }/*# sourceMappingURL=globals.css.map */

@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import headerPhoto from '../public/landing/headerPhoto.png';
 import charlesDeGaulle from '../public/landing/CharlesDeGaulle.png';
 import marquisDeSade from '../public/landing/MarquisDeSade.png';
 import philippePetain from '../public/landing/PhilippePetain.png';
-import pilsudski from '../public/landing/Pilsudski.png';
+import louisRenault from '../public/landing/LouisRenault.png';
 import richelieu from '../public/landing/Richelieu.png';
 
 export default function Home() {
@@ -47,26 +48,32 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="lending__main__gridBlok">
-                    <div className="lending__main__gridBlok__block1 link">
-                        <Image
-                            src={charlesDeGaulle}
-                            alt="charlesDeGaulle"
-                            className="lending__main__gridBlok__imgSize"
-                        />
+                    <div className="lending__main__gridBlok__block1">
+                        <Link href="/error404" className="link">
+                            <Image
+                                src={charlesDeGaulle}
+                                alt="charlesDeGaulle"
+                                className="lending__main__gridBlok__imgSize"
+                            />
+                        </Link>
                     </div>
                     <div className="lending__main__gridBlok__block2 link">
-                        <Image
-                            src={pilsudski}
-                            alt="pilsudski"
-                            className="lending__main__gridBlok__imgSize"
-                        />
+                        <Link href="/error404" className="link">
+                            <Image
+                                src={louisRenault}
+                                alt="louisRenault"
+                                className="lending__main__gridBlok__imgSize"
+                            />{' '}
+                        </Link>
                     </div>
                     <div className="lending__main__gridBlok__block3 link">
-                        <Image
-                            src={marquisDeSade}
-                            alt="marquisDeSade"
-                            className="lending__main__gridBlok__imgSize"
-                        />
+                        <Link href="/error404" className="link">
+                            <Image
+                                src={marquisDeSade}
+                                alt="marquisDeSade"
+                                className="lending__main__gridBlok__imgSize"
+                            />{' '}
+                        </Link>
                     </div>
                     <div className="lending__main__gridBlok__block4">
                         <div className="lending__main__gridBlok__subtitle">
@@ -87,22 +94,31 @@ export default function Home() {
                             sapiente similique cupiditate? Placeat, at impedit
                             accusantium ipsa neque, possimus vel similique
                             perferendis quaerat, numquam eveniet iusto
-                            laudantium natus esse eius culpa.
+                            laudantium natus esse eius culpa. <br />{' '}
+                            <text className="linkText link">
+                                <Link href="/error404" className="link">
+                                    Узнать больше
+                                </Link>
+                            </text>
                         </div>
                     </div>
                     <div className="lending__main__gridBlok__block6 link">
-                        <Image
-                            src={philippePetain}
-                            alt="philippePetain"
-                            className="lending__main__gridBlok__imgSize"
-                        />
+                        <Link href="/error404" className="link">
+                            <Image
+                                src={philippePetain}
+                                alt="philippePetain"
+                                className="lending__main__gridBlok__imgSize"
+                            />{' '}
+                        </Link>
                     </div>
                     <div className="lending__main__gridBlok__block7 link">
-                        <Image
-                            src={richelieu}
-                            alt="richelieu"
-                            className="lending__main__gridBlok__imgSize"
-                        />
+                        <Link href="/error404" className="link">
+                            <Image
+                                src={richelieu}
+                                alt="richelieu"
+                                className="lending__main__gridBlok__imgSize"
+                            />{' '}
+                        </Link>
                     </div>
                 </div>
             </main>
