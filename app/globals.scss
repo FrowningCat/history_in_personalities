@@ -53,10 +53,11 @@ a {
     text-decoration: none;
 }
 
-.link {
+.linkImg {
     display: flex;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 .link:hover {
@@ -71,6 +72,7 @@ a {
 
 .linkText:hover {
     border-bottom: 2px solid $borderColor;
+    box-sizing: border-box;
 }
 
 .anim1 {
@@ -225,6 +227,10 @@ a {
             text-shadow: 0 -17px 17px $neonTextColor,
                 -17px 0 17px $neonTextColor, -17px -17px 17px $neonTextColor;
             color: $errorTextColor;
+        }
+        &__notLit {
+            text-shadow: none;
+            color: $errorTextNotLitColor;
         }
         &__sh2 {
             text-shadow: 0px 0px 50px $neon404Coor;

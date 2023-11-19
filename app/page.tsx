@@ -27,7 +27,7 @@ export default function Home() {
                             Герой Предатель Патриот
                         </div>
                     </div>
-                    <div className="lending__header__text__date">20.11</div>
+                    <div className="lending__header__text__date">22.11</div>
                 </div>
             </header>
             <main className="lending__main">
@@ -49,7 +49,7 @@ export default function Home() {
                 </div>
                 <div className="lending__main__gridBlok">
                     <div className="lending__main__gridBlok__block1">
-                        <Link href="/error404" className="link">
+                        <Link href="/error404" className="linkImg">
                             <Image
                                 src={charlesDeGaulle}
                                 alt="charlesDeGaulle"
@@ -57,8 +57,8 @@ export default function Home() {
                             />
                         </Link>
                     </div>
-                    <div className="lending__main__gridBlok__block2 link">
-                        <Link href="/error404" className="link">
+                    <div className="lending__main__gridBlok__block2">
+                        <Link href="/error404" className="linkImg">
                             <Image
                                 src={louisRenault}
                                 alt="louisRenault"
@@ -66,8 +66,8 @@ export default function Home() {
                             />{' '}
                         </Link>
                     </div>
-                    <div className="lending__main__gridBlok__block3 link">
-                        <Link href="/error404" className="link">
+                    <div className="lending__main__gridBlok__block3">
+                        <Link href="/error404" className="linkImg">
                             <Image
                                 src={marquisDeSade}
                                 alt="marquisDeSade"
@@ -102,22 +102,22 @@ export default function Home() {
                             </text>
                         </div>
                     </div>
-                    <div className="lending__main__gridBlok__block6 link">
-                        <Link href="/error404" className="link">
+                    <div className="lending__main__gridBlok__block6">
+                        <Link href="/error404" className="linkImg">
                             <Image
                                 src={philippePetain}
                                 alt="philippePetain"
                                 className="lending__main__gridBlok__imgSize"
-                            />{' '}
+                            />
                         </Link>
                     </div>
-                    <div className="lending__main__gridBlok__block7 link">
-                        <Link href="/error404" className="link">
+                    <div className="lending__main__gridBlok__block7">
+                        <Link href="/error404" className="linkImg">
                             <Image
                                 src={richelieu}
                                 alt="richelieu"
                                 className="lending__main__gridBlok__imgSize"
-                            />{' '}
+                            />
                         </Link>
                     </div>
                 </div>
