@@ -178,15 +178,15 @@ a {
 .lending__teaser {
   height: 80vh;
   margin-top: 20vh;
+  overflow: hidden;
 }
 .lending__teaser__photo {
   display: flex;
   position: absolute;
   z-index: 1;
   height: 70vh;
-  width: 40vw;
+  width: 40rem;
   overflow: hidden;
-  padding-left: 650px;
 }
 .lending__teaser__photo__imgSize {
   pointer-events: none;
@@ -196,6 +196,7 @@ a {
   gap: 10px;
   width: 50vw;
   padding-top: 20vh;
+  padding-left: 40vw;
 }
 .lending__teaser__textBlock__title {
   font-weight: 600;

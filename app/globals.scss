@@ -215,14 +215,14 @@ a {
     &__teaser {
         height: 80vh;
         margin-top: 20vh;
+        overflow: hidden;
         &__photo {
             display: flex;
             position: absolute;
             z-index: 1;
             height: 70vh;
-            width: 40vw;
+            width: 40rem;
             overflow: hidden;
-            padding-left: 650px;
             &__imgSize {
                 pointer-events: none;
             }
@@ -232,6 +232,7 @@ a {
             gap: 10px;
             width: 50vw;
             padding-top: 20vh;
+            padding-left: 40vw;
             &__title {
                 font-weight: $titleWeight;
                 font-size: $titleSizeAdditionally;
