@@ -265,8 +265,8 @@ a {
         font-family: $errorFontFamily, cursive;
         &__sh1 {
             margin: 0.1rem;
-            text-shadow: 0 -17px 17px $neonTextColor,
-                -17px 0 17px $neonTextColor, -17px -17px 17px $neonTextColor;
+            text-shadow: 0 0px 17px $neonTextColor, -17px 0 17px $neonTextColor,
+                17px 0px 17px $neonTextColor;
             color: $errorTextColor;
         }
         &__notLit {
@@ -305,14 +305,14 @@ a {
 @keyframes flashing {
     0% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     24% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     25% {
@@ -327,8 +327,8 @@ a {
     }
     45% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
 }
@@ -336,14 +336,14 @@ a {
 @keyframes flashingTwo {
     0% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     14% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     15% {
@@ -353,8 +353,8 @@ a {
     }
     16% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     17% {
@@ -364,8 +364,8 @@ a {
     }
     18% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     19% {
@@ -380,8 +380,8 @@ a {
     }
     63% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     64% {
@@ -391,8 +391,8 @@ a {
     }
     65% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
     66% {
@@ -402,8 +402,8 @@ a {
     }
     67% {
         font-family: 'Monoton', cursive;
-        text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
-            -17px -17px 17px $neonTextColor;
+        text-shadow: 0 0 17px $neonTextColor, -17px 0 17px $neonTextColor,
+            17px 0 17px $neonTextColor;
         color: $errorTextColor;
     }
 }

@@ -229,7 +229,7 @@ a {
 }
 .error__text__sh1 {
   margin: 0.1rem;
-  text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+  text-shadow: 0 0px 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0px 17px lightseagreen;
   color: white;
 }
 .error__text__notLit {
@@ -263,12 +263,12 @@ a {
 @keyframes flashing {
   0% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   24% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   25% {
@@ -283,19 +283,19 @@ a {
   }
   45% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
 }
 @keyframes flashingTwo {
   0% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   14% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   15% {
@@ -305,7 +305,7 @@ a {
   }
   16% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   17% {
@@ -315,7 +315,7 @@ a {
   }
   18% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   19% {
@@ -330,7 +330,7 @@ a {
   }
   63% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   64% {
@@ -340,7 +340,7 @@ a {
   }
   65% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
   66% {
@@ -350,7 +350,7 @@ a {
   }
   67% {
     font-family: "Monoton", cursive;
-    text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
+    text-shadow: 0 0 17px lightseagreen, -17px 0 17px lightseagreen, 17px 0 17px lightseagreen;
     color: white;
   }
 }
