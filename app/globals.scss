@@ -35,12 +35,13 @@ $linkWeightText: 400;
 $linkSizeText: 2rem;
 
 $errorWeight: 700;
-$errorSize: 7rem;
+$errorSize: 6rem;
 
 * {
     margin: 0;
     padding: 0;
     cursor: default;
+    overflow: hidden;
 }
 
 html {
@@ -80,6 +81,10 @@ a {
 
 .anim2 {
     animation: flashingTwo 3s infinite;
+}
+
+.anim3 {
+    animation: flashingThree 3s infinite;
 }
 
 .lending {
@@ -216,9 +221,8 @@ a {
             position: absolute;
             z-index: 1;
             height: 70vh;
-            width: 40vw;
-            margin-top: 5vh;
-            margin-left: 52vw;
+            width: 30vw;
+            margin-left: 650px;
             &__imgSize {
                 height: 100%;
                 width: 100%;
@@ -357,7 +361,6 @@ a {
     17% {
         font-family: 'Monoton', cursive;
         text-shadow: none;
-        font-size: 7rem;
         color: $errorTextNotLitColor;
     }
     18% {
@@ -403,5 +406,47 @@ a {
         text-shadow: 0 -17px 17px $neonTextColor, -17px 0 17px $neonTextColor,
             -17px -17px 17px $neonTextColor;
         color: $errorTextColor;
+    }
+}
+
+@keyframes flashingThree {
+    0% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 0 50px $neon404Coor, 0 0 50px $neon404Coor,
+            0 0 50px $neon404Coor;
+        color: $four04MainTextColor;
+    }
+    34% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 0 50px $neon404Coor, -17px 0 17px0 0 50px $neon404Coor,
+            0 0 50px $neon404Coor;
+        color: $four04MainTextColor;
+    }
+    35% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $four04AdditionallyTextColor;
+    }
+    36% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 0 50px $neon404Coor, 0 0 50px $neon404Coor,
+            0 0 50px $neon404Coor;
+        color: $four04MainTextColor;
+    }
+    37% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $four04AdditionallyTextColor;
+    }
+    38% {
+        font-family: 'Monoton', cursive;
+        text-shadow: 0 0 50px $neon404Coor, 0 0 50px $neon404Coor,
+            0 0 50px $neon404Coor;
+        color: $four04MainTextColor;
+    }
+    39% {
+        font-family: 'Monoton', cursive;
+        text-shadow: none;
+        color: $four04AdditionallyTextColor;
     }
 }

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   cursor: default;
+  overflow: hidden;
 }
 
 html {
@@ -42,6 +43,10 @@ a {
 
 .anim2 {
   animation: flashingTwo 3s infinite;
+}
+
+.anim3 {
+  animation: flashingThree 3s infinite;
 }
 
 .lending {
@@ -180,9 +185,8 @@ a {
   position: absolute;
   z-index: 1;
   height: 70vh;
-  width: 40vw;
-  margin-top: 5vh;
-  margin-left: 52vw;
+  width: 30vw;
+  margin-left: 650px;
 }
 .lending__teaser__photo__imgSize {
   height: 100%;
@@ -221,7 +225,7 @@ a {
   width: 100vw;
 }
 .error__text {
-  font-size: 7rem;
+  font-size: 6rem;
   font-family: "Monoton", cursive;
 }
 .error__text__sh1 {
@@ -308,7 +312,6 @@ a {
   17% {
     font-family: "Monoton", cursive;
     text-shadow: none;
-    font-size: 7rem;
     color: darkgray;
   }
   18% {
@@ -350,5 +353,42 @@ a {
     font-family: "Monoton", cursive;
     text-shadow: 0 -17px 17px lightseagreen, -17px 0 17px lightseagreen, -17px -17px 17px lightseagreen;
     color: white;
+  }
+}
+@keyframes flashingThree {
+  0% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 0 50px deeppink, 0 0 50px deeppink, 0 0 50px deeppink;
+    color: red;
+  }
+  34% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 0 50px deeppink, -17px 0 17px0 0 50px deeppink, 0 0 50px deeppink;
+    color: red;
+  }
+  35% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkred;
+  }
+  36% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 0 50px deeppink, 0 0 50px deeppink, 0 0 50px deeppink;
+    color: red;
+  }
+  37% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkred;
+  }
+  38% {
+    font-family: "Monoton", cursive;
+    text-shadow: 0 0 50px deeppink, 0 0 50px deeppink, 0 0 50px deeppink;
+    color: red;
+  }
+  39% {
+    font-family: "Monoton", cursive;
+    text-shadow: none;
+    color: darkred;
   }
 }/*# sourceMappingURL=globals.css.map */

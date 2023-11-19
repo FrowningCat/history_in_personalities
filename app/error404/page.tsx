@@ -16,17 +16,13 @@ export default function Authorization() {
                     <text className="error__text__sh1">N</text>
                 </p>
                 <p>
-                    <text className="error__text__sh2">D</text>
-                    <text className="error__text__zero">E</text>
-                    <text className="error__text__sh2">V</text>
-                    <text className="error__text__sh2">E</text>
-                    <text className="error__text__sh2">L</text>
+                    <text className="error__text__sh2">W</text>
                     <text className="error__text__zero">O</text>
-                    <text className="error__text__sh2">P</text>
-                    <text className="error__text__sh2">M</text>
-                    <text className="error__text__sh2">E</text>
+                    <text className="error__text__sh2">R</text>
+                    <text className="error__text__sh2 anim3">K</text>
+                    <text className="error__text__sh2">I</text>
                     <text className="error__text__zero">N</text>
-                    <text className="error__text__zero">T</text>
+                    <text className="error__text__sh2">G</text>
                 </p>
             </div>
         </div>
