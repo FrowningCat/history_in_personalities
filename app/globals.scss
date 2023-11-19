@@ -27,7 +27,6 @@ $titleSizeAdditionally: 3.5rem;
 
 $subtitleWeight: 600;
 $subtitleSize: 2rem;
-$subtitleSizeAdditionally: 2rem;
 
 $dateWeight: 700;
 $dateSize: 10rem;
@@ -150,7 +149,7 @@ a {
                 font-size: $titleSizeAdditionally;
             }
             &__subtitle {
-                font-size: $subtitleSizeAdditionally;
+                font-size: $subtitleSize;
             }
             &__text {
                 color: $mainTextColor;
@@ -199,13 +198,52 @@ a {
             }
             &__subtitle {
                 color: $selectedTextColor;
-                font-size: $subtitleSizeAdditionally;
+                font-size: $subtitleSize;
                 margin-left: 1rem;
                 margin-right: 1rem;
             }
             &__text {
                 margin-left: 1rem;
                 margin-right: 1rem;
+            }
+        }
+    }
+    &__teaser {
+        height: 80vh;
+        margin-top: 20vh;
+        &__photo {
+            display: flex;
+            position: absolute;
+            z-index: 1;
+            height: 70vh;
+            width: 40vw;
+            margin-top: 5vh;
+            margin-left: 52vw;
+            &__imgSize {
+                height: 100%;
+                width: 100%;
+                pointer-events: none;
+            }
+        }
+        &__textBlock {
+            display: grid;
+            gap: 10px;
+            width: 50vw;
+            padding-top: 20vh;
+            &__title {
+                font-weight: $titleWeight;
+                font-size: $titleSizeAdditionally;
+                color: $headerTextColor;
+                z-index: 5;
+            }
+            &__subtitle {
+                font-weight: $subtitleWeight;
+                font-size: $subtitleSize;
+                color: $headerTextColor;
+                z-index: 5;
+            }
+            &__text {
+                z-index: 5;
             }
         }
     }

@@ -171,6 +171,45 @@ a {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.lending__teaser {
+  height: 80vh;
+  margin-top: 20vh;
+}
+.lending__teaser__photo {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  height: 70vh;
+  width: 40vw;
+  margin-top: 5vh;
+  margin-left: 52vw;
+}
+.lending__teaser__photo__imgSize {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.lending__teaser__textBlock {
+  display: grid;
+  gap: 10px;
+  width: 50vw;
+  padding-top: 20vh;
+}
+.lending__teaser__textBlock__title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: white;
+  z-index: 5;
+}
+.lending__teaser__textBlock__subtitle {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+  z-index: 5;
+}
+.lending__teaser__textBlock__text {
+  z-index: 5;
+}
 
 .error {
   display: grid;

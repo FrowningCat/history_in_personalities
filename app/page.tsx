@@ -6,6 +6,7 @@ import marquisDeSade from '../public/landing/MarquisDeSade.png';
 import philippePetain from '../public/landing/PhilippePetain.png';
 import louisRenault from '../public/landing/LouisRenault.png';
 import richelieu from '../public/landing/Richelieu.png';
+import teaserPhoto from '../public/landing/teaserPhoto.png';
 
 export default function Home() {
     return (
@@ -122,6 +123,37 @@ export default function Home() {
                     </div>
                 </div>
             </main>
+            <div className="lending__teaser">
+                <div className="lending__teaser__photo">
+                    <Image
+                        src={teaserPhoto}
+                        alt="teaserPhoto"
+                        className="lending__teaser__photo__imgSize"
+                    />
+                </div>
+                <div className="lending__teaser__textBlock">
+                    <div className="lending__teaser__textBlock__title">
+                        Aнри Филипп Петен
+                    </div>
+                    <div className="lending__teaser__textBlock__subtitle">
+                        Биография
+                    </div>
+                    <div className="lending__teaser__textBlock__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nam ullam cum, quaerat repellendus saepe maiores,
+                        sapiente cupiditate unde esse inventore ducimus
+                        similique accusamus at minima velit assumenda illum
+                        explicabo corrupti? Excepturi tempora qui laudantium.
+                        Autem culpa commodi atque dolorem dolores? <br />
+                        <text className="linkText link">
+                            <Link href="/error404" className="link">
+                                Узнать больше
+                            </Link>
+                        </text>
+                    </div>
+                </div>
+            </div>
+            <footer className="landing__footer"></footer>
         </div>
     );
 }
