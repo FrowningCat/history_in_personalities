@@ -41,7 +41,6 @@ $errorSize: 6rem;
     margin: 0;
     padding: 0;
     cursor: default;
-    overflow: hidden;
 }
 
 html {
@@ -221,11 +220,10 @@ a {
             position: absolute;
             z-index: 1;
             height: 70vh;
-            width: 30vw;
-            margin-left: 650px;
+            width: 40vw;
+            overflow: hidden;
+            padding-left: 650px;
             &__imgSize {
-                height: 100%;
-                width: 100%;
                 pointer-events: none;
             }
         }
