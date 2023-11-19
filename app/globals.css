@@ -213,6 +213,22 @@ a {
 .lending__teaser__textBlock__text {
   z-index: 5;
 }
+.lending__footer {
+  margin-top: 10vh;
+  padding-bottom: 10px;
+}
+.lending__footer__title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: white;
+}
+.lending__footer__text {
+  font-size: 1.1rem;
+}
+.lending__footer__text__telegram:hover {
+  border-bottom: 1px solid #999;
+  box-sizing: border-box;
+}
 
 .error {
   display: grid;

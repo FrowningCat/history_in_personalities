@@ -153,7 +153,19 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <footer className="landing__footer"></footer>
+            <footer className="lending__footer">
+                <div className="lending__footer__title">Контакты</div>
+                <div className="lending__footer__text">
+                    Telegram:{' '}
+                    <Link
+                        href="https://t.me/Frowning_Cat"
+                        className="lending__footer__text__telegram link"
+                    >
+                        Frowning_Cat
+                    </Link>
+                    <div>Email: vsavinvkov60@gmail.com</div>
+                </div>
+            </footer>
         </div>
     );
 }

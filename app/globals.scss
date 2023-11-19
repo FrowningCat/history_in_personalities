@@ -17,6 +17,7 @@ $errorFontFamily: 'Monoton';
 
 $mainWeightText: 600;
 $mainSizeText: 1.3rem;
+$footerSizeText: 1.1rem;
 
 $headerWeight: 600;
 $headerSize: 1.4rem;
@@ -247,6 +248,22 @@ a {
             }
             &__text {
                 z-index: 5;
+            }
+        }
+    }
+    &__footer {
+        margin-top: 10vh;
+        padding-bottom: 10px;
+        &__title {
+            font-weight: $titleWeight;
+            font-size: $titleSizeAdditionally;
+            color: $headerTextColor;
+        }
+        &__text {
+            font-size: $footerSizeText;
+            &__telegram:hover {
+                border-bottom: 1px solid $mainTextColor;
+                box-sizing: border-box;
             }
         }
     }
