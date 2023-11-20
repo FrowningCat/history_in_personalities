@@ -222,14 +222,14 @@ a {
     }
     &__teaser {
         height: 80vh;
-        margin-top: 20vh;
-        overflow: hidden;
+        margin-top: 15vh;
         &__photo {
             display: flex;
             position: absolute;
+            justify-content: center;
             z-index: 1;
-            height: 70vh;
-            width: 40rem;
+            height: 80vh;
+            width: 30rem;
             overflow: hidden;
             &__imgSize {
                 pointer-events: none;
@@ -239,7 +239,7 @@ a {
             display: grid;
             gap: 10px;
             width: 50vw;
-            padding-top: 20vh;
+            padding-top: 25vh;
             padding-left: 40vw;
             &__title {
                 font-weight: $titleWeight;
@@ -312,6 +312,10 @@ a {
     html {
         font-size: 12px;
     }
+    .lending__teaser__photo {
+        justify-content: end;
+        width: 50vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -344,6 +348,10 @@ a {
             height: 10vh;
             justify-content: center;
         }
+    }
+    .lending__teaser__photo {
+        justify-content: end;
+        width: 70vw;
     }
 }
 

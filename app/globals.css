@@ -182,15 +182,15 @@ a {
 }
 .lending__teaser {
   height: 80vh;
-  margin-top: 20vh;
-  overflow: hidden;
+  margin-top: 15vh;
 }
 .lending__teaser__photo {
   display: flex;
   position: absolute;
+  justify-content: center;
   z-index: 1;
-  height: 70vh;
-  width: 40rem;
+  height: 80vh;
+  width: 30rem;
   overflow: hidden;
 }
 .lending__teaser__photo__imgSize {
@@ -200,7 +200,7 @@ a {
   display: grid;
   gap: 10px;
   width: 50vw;
-  padding-top: 20vh;
+  padding-top: 25vh;
   padding-left: 40vw;
 }
 .lending__teaser__textBlock__title {
@@ -270,6 +270,10 @@ a {
   html {
     font-size: 12px;
   }
+  .lending__teaser__photo {
+    justify-content: end;
+    width: 50vw;
+  }
 }
 @media (max-width: 768px) {
   html {
@@ -300,6 +304,10 @@ a {
     padding-top: 0;
     height: 10vh;
     justify-content: center;
+  }
+  .lending__teaser__photo {
+    justify-content: end;
+    width: 70vw;
   }
 }
 @keyframes flashing {
