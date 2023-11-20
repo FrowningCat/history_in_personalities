@@ -85,7 +85,7 @@ a {
   z-index: 2;
   font-weight: 600;
   color: white;
-  padding-top: 20vh;
+  padding-top: 25vh;
   height: 25vh;
 }
 .lending__header__text__header__title {
@@ -283,6 +283,9 @@ a {
 @media (max-width: 567px) {
   html {
     font-size: 8px;
+  }
+  .lending__header {
+    height: 80vh;
   }
   .lending__header__text {
     grid-template-columns: repeat(1, 350px);
