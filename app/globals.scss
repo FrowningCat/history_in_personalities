@@ -38,6 +38,8 @@ $linkSizeText: 2rem;
 $errorWeight: 700;
 $errorSize: 6rem;
 
+$imgSize: 30rem;
+
 * {
     margin: 0;
     padding: 0;
@@ -95,30 +97,34 @@ a {
     font-size: $mainSizeText;
     &__header {
         display: flex;
+        margin: auto;
         justify-content: center;
         height: 100vh;
         &__photo {
             position: absolute;
             display: flex;
+            justify-content: center;
+            align-items: center;
             margin-top: 5vh;
             z-index: 1;
             pointer-events: none;
             &__size {
-                height: 80vh;
-                width: 40vw;
+                height: $imgSize;
+                width: $imgSize;
             }
         }
         &__text {
             display: grid;
             padding-top: 50vh;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 50vh;
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
+            justify-content: center;
             &__header {
                 z-index: 2;
                 font-weight: $headerWeight;
                 color: $headerTextColor;
                 padding-top: 20vh;
+                height: 25vh;
                 &__title {
                     font-weight: $titleWeight;
                     font-size: $titleSize;
@@ -130,9 +136,10 @@ a {
             }
             &__date {
                 z-index: 2;
-                display: grid;
+                display: flex;
                 align-items: center;
                 text-align: end;
+                height: 25vh;
                 padding-top: 20vh;
                 font-weight: $dateWeight;
                 font-size: $dateSize;
@@ -316,6 +323,26 @@ a {
 @media (max-width: 567px) {
     html {
         font-size: 8px;
+    }
+    .lending__header__text {
+        grid-template-columns: repeat(1, 350px);
+        padding-top: 25vh;
+        &__header {
+            display: grid;
+            height: 5vh;
+            justify-content: center;
+            &__subtitle {
+                display: grid;
+                justify-content: center;
+                font-weight: $subtitleWeight;
+                font-size: $subtitleSize;
+            }
+        }
+        &__date {
+            padding-top: 0;
+            height: 10vh;
+            justify-content: center;
+        }
     }
 }
 
