@@ -75,7 +75,7 @@ a {
   width: 30rem;
 }
 .lending__header__text {
-  display: grid;
+  display: flex;
   padding-top: 50vh;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -283,6 +283,7 @@ a {
   .lending__header__text {
     grid-template-columns: repeat(1, 350px);
     padding-top: 25vh;
+    display: grid;
   }
   .lending__header__text__header {
     display: grid;
