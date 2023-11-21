@@ -317,11 +317,11 @@ a {
     padding-top: 15vh;
     padding-left: 5vw;
     height: 85vh;
-    display: flex;
     &__categories {
+        position: absolute;
         background: $categoriesBackgroundColor;
         display: grid;
-        max-height: 20rem;
+        min-height: 20rem;
         width: 10rem;
         &__title {
             align-items: center;
@@ -345,10 +345,11 @@ a {
         }
     }
     &__personalities {
+        width: 80vw;
+        margin-left: 10rem;
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(auto-fit, 13rem);
-        margin-left: 10rem;
         gap: 2rem;
         &__persona {
             min-height: 200px;
