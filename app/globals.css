@@ -289,6 +289,7 @@ a {
 .article__categories__keywords {
   gap: 5px;
   display: grid;
+  font-size: 1.1rem;
 }
 .article__categories__keywords__chapter {
   justify-content: space-between;
@@ -302,23 +303,22 @@ a {
 .article__personalities {
   display: grid;
   justify-content: center;
+  grid-template-columns: repeat(auto-fit, 13rem);
   margin-left: 10rem;
   gap: 2rem;
-  grid-template-columns: repeat(2, 13rem);
 }
 .article__personalities__persona {
-  display: grid;
-  height: 13rem;
+  min-height: 200px;
 }
 .article__personalities__persona__img__imgSize {
   height: 10rem;
-  width: 13rem;
+  width: 100%;
+}
+.article__personalities__persona__img:hover {
+  box-shadow: 0 0px 25px #999;
 }
 .article__personalities__persona__name {
   margin: 5px 0;
-}
-.article__personalities__persona:hover {
-  box-shadow: 0 0px 25px #999;
 }
 
 @media (max-width: 992px) {
@@ -366,6 +366,9 @@ a {
   .lending__teaser__photo {
     justify-content: end;
     width: 70vw;
+  }
+  .article__categories {
+    max-height: 30rem;
   }
 }
 @keyframes flashing {

@@ -20,6 +20,7 @@ $errorFontFamily: 'Monoton';
 $mainWeightText: 600;
 $mainSizeText: 1.3rem;
 $footerSizeText: 1.1rem;
+$keywordsSizeText: 1.1rem;
 
 $headerWeight: 600;
 $headerSize: 1.4rem;
@@ -331,6 +332,7 @@ a {
         &__keywords {
             gap: 5px;
             display: grid;
+            font-size: $keywordsSizeText;
             &__chapter {
                 justify-content: space-between;
                 display: flex;
@@ -345,26 +347,23 @@ a {
     &__personalities {
         display: grid;
         justify-content: center;
+        grid-template-columns: repeat(auto-fit, 13rem);
         margin-left: 10rem;
         gap: 2rem;
-        grid-template-columns: repeat(2, 13rem);
         &__persona {
-            display: grid;
-            height: 13rem;
+            min-height: 200px;
             &__img {
                 &__imgSize {
                     height: 10rem;
-                    width: 13rem;
+                    width: 100%;
                 }
+            }
+            &__img:hover {
+                box-shadow: 0 0px 25px $borderCategoriesBackgroundColor;
             }
             &__name {
                 margin: 5px 0;
             }
-            &__title {
-            }
-        }
-        &__persona:hover {
-            box-shadow: 0 0px 25px $borderCategoriesBackgroundColor;
         }
     }
 }
@@ -373,9 +372,13 @@ a {
     html {
         font-size: 12px;
     }
-    .lending__teaser__photo {
-        justify-content: end;
-        width: 50vw;
+    .lending {
+        &__teaser {
+            &__photo {
+                justify-content: end;
+                width: 50vw;
+            }
+        }
     }
 }
 
@@ -389,33 +392,42 @@ a {
     html {
         font-size: 8px;
     }
-    .lending__header {
-        height: 80vh;
-    }
-    .lending__header__text {
-        grid-template-columns: repeat(1, 350px);
-        padding-top: 25vh;
-        display: grid;
+    .lending {
         &__header {
-            display: grid;
-            height: 5vh;
-            justify-content: center;
-            &__subtitle {
+            height: 80vh;
+            &__text {
+                grid-template-columns: repeat(1, 350px);
+                padding-top: 25vh;
                 display: grid;
-                justify-content: center;
-                font-weight: $subtitleWeight;
-                font-size: $subtitleSize;
+                &__header {
+                    display: grid;
+                    height: 5vh;
+                    justify-content: center;
+                    &__subtitle {
+                        display: grid;
+                        justify-content: center;
+                        font-weight: $subtitleWeight;
+                        font-size: $subtitleSize;
+                    }
+                }
+                &__date {
+                    padding-top: 0;
+                    height: 10vh;
+                    justify-content: center;
+                }
             }
         }
-        &__date {
-            padding-top: 0;
-            height: 10vh;
-            justify-content: center;
+        &__teaser {
+            &__photo {
+                justify-content: end;
+                width: 70vw;
+            }
         }
     }
-    .lending__teaser__photo {
-        justify-content: end;
-        width: 70vw;
+    .article {
+        &__categories {
+            max-height: 30rem;
+        }
     }
 }
 
