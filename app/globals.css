@@ -272,6 +272,7 @@ a {
   padding-top: 15vh;
   padding-left: 5vw;
   height: 85vh;
+  overflow: hidden;
 }
 .article__categories {
   position: absolute;

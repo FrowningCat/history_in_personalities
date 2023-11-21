@@ -317,6 +317,7 @@ a {
     padding-top: 15vh;
     padding-left: 5vw;
     height: 85vh;
+    overflow: hidden;
     &__categories {
         position: absolute;
         background: $categoriesBackgroundColor;
