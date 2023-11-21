@@ -11,6 +11,8 @@ $four04MainTextColor: red;
 $four04AdditionallyTextColor: darkred;
 $neonTextColor: lightseagreen;
 $neon404Coor: deeppink;
+$categoriesBackgroundColor: #3d3d3d;
+$borderCategoriesBackgroundColor: #999;
 
 $mainFontFamily: 'Manrope';
 $errorFontFamily: 'Monoton';
@@ -304,6 +306,65 @@ a {
         &__zero {
             text-shadow: none;
             color: $four04AdditionallyTextColor;
+        }
+    }
+}
+
+.article {
+    background: $mainBackgroundColor;
+    color: $mainTextColor;
+    padding-top: 15vh;
+    padding-left: 5vw;
+    height: 85vh;
+    display: flex;
+    &__categories {
+        background: $categoriesBackgroundColor;
+        display: grid;
+        max-height: 20rem;
+        width: 10rem;
+        &__title {
+            align-items: center;
+            margin: auto;
+            stroke-width: $subtitleWeight;
+            font-size: $subtitleSize;
+        }
+        &__keywords {
+            gap: 5px;
+            display: grid;
+            &__chapter {
+                justify-content: space-between;
+                display: flex;
+                margin: 0 1rem;
+                &__text:hover {
+                    height: calc(1rem + 2px);
+                    border-bottom: 1px solid $borderCategoriesBackgroundColor;
+                }
+            }
+        }
+    }
+    &__personalities {
+        display: grid;
+        justify-content: center;
+        margin-left: 10rem;
+        gap: 2rem;
+        grid-template-columns: repeat(2, 13rem);
+        &__persona {
+            display: grid;
+            height: 13rem;
+            &__img {
+                &__imgSize {
+                    height: 10rem;
+                    width: 13rem;
+                }
+            }
+            &__name {
+                margin: 5px 0;
+            }
+            &__title {
+            }
+        }
+        &__persona:hover {
+            box-shadow: 0 0px 25px $borderCategoriesBackgroundColor;
         }
     }
 }

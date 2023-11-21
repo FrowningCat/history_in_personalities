@@ -105,7 +105,7 @@ export default function Home() {
                     </div>
                     <div className="lending__main__gridBlok__block6">
                         <Link
-                            href="/article/frenchPersonalities/philippePetain"
+                            href="/article/philippePetain"
                             className="linkImg"
                         >
                             <Image
@@ -150,7 +150,7 @@ export default function Home() {
                         Autem culpa commodi atque dolorem dolores? <br />
                         <text className="linkText link">
                             <Link
-                                href="/article/frenchPersonalities/philippePetain"
+                                href="/article/philippePetain"
                                 className="link"
                             >
                                 Узнать больше
