@@ -1,4 +1,4 @@
-export default function Authorization() {
+export default function Error() {
     return (
         <div className="error">
             <div className="error__text">

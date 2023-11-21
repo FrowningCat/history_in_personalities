@@ -97,14 +97,17 @@ export default function Home() {
                             perferendis quaerat, numquam eveniet iusto
                             laudantium natus esse eius culpa. <br />{' '}
                             <text className="linkText link">
-                                <Link href="/error404" className="link">
+                                <Link href="/article" className="link">
                                     Узнать больше
                                 </Link>
                             </text>
                         </div>
                     </div>
                     <div className="lending__main__gridBlok__block6">
-                        <Link href="/error404" className="linkImg">
+                        <Link
+                            href="/article/frenchPersonalities/philippePetain"
+                            className="linkImg"
+                        >
                             <Image
                                 src={philippePetain}
                                 alt="philippePetain"
@@ -146,7 +149,10 @@ export default function Home() {
                         explicabo corrupti? Excepturi tempora qui laudantium.
                         Autem culpa commodi atque dolorem dolores? <br />
                         <text className="linkText link">
-                            <Link href="/error404" className="link">
+                            <Link
+                                href="/article/frenchPersonalities/philippePetain"
+                                className="link"
+                            >
                                 Узнать больше
                             </Link>
                         </text>
