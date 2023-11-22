@@ -32,15 +32,15 @@ export default function Article() {
             </Link>
             <div className="article__personalities">
                 <div className="article__personalities__persona">
-                    <Link href="/article/philippePetain" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={philippePetain}
-                                alt="philippePetain"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
+                    <div className="article__personalities__persona__img">
+                        <Image
+                            src={philippePetain}
+                            alt="philippePetain"
+                            className="article__personalities__persona__img__imgSize linkImg"
+                        />
+                    </div>
+                    <Link href="/article/philippePetain">
+                        <div className="article__personalities__persona__name link">
                             Aнри Филипп Петен
                         </div>
                     </Link>
