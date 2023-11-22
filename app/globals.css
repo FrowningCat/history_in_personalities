@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Monoton&=Manrope:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Playfair+Display:wght@400;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   cursor: default;
+  font-family: "Playfair Display";
 }
 
 html {
@@ -327,7 +328,7 @@ a {
 }
 .article__personalities {
   width: 90vw;
-  padding-top: 10vh;
+  padding-top: 5vh;
   display: grid;
   margin-left: 5vw;
   margin-right: 5vw;
