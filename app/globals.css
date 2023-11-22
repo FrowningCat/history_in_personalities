@@ -282,7 +282,8 @@ a {
   margin-top: 10vh;
   z-index: 2;
   height: 7vh;
-  width: 95vw;
+  width: 90vw;
+  margin-left: 5vw;
   background-color: #0a0a0a;
   display: flex;
   justify-content: space-around;
@@ -307,7 +308,6 @@ a {
 .article__topBar__links__text {
   display: grid;
   padding-right: 1rem;
-  height: 4vh;
   align-items: center;
 }
 .article__topBar__links__text:not(:last-child) {
@@ -403,6 +403,9 @@ a {
   .lending__teaser__photo {
     justify-content: end;
     width: 70vw;
+  }
+  .article__topBar__links {
+    font-size: 1rem;
   }
   .article__title {
     width: 100vw;
