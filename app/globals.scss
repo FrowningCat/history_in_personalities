@@ -49,6 +49,7 @@ $imgSize: 30rem;
     margin: 0;
     padding: 0;
     cursor: default;
+    background: $mainBackgroundColor;
 }
 
 html {
@@ -320,6 +321,7 @@ a {
     background: $mainBackgroundColor;
     color: $mainTextColor;
     &__topBar {
+        margin-top: -10vh;
         height: 7vh;
         width: 95vw;
         background-color: $topBarBackgroundColor;
@@ -356,10 +358,14 @@ a {
         }
     }
     &__title {
-        padding-top: 20vh;
+        width: 45vw;
+        margin-top: 10vh;
         margin-left: 5vw;
         font-size: 3rem;
         color: $headerTextColor;
+    }
+    &__title:hover {
+        color: $f;
     }
     &__personalities {
         width: 90vw;
@@ -408,6 +414,11 @@ a {
     html {
         font-size: 10px;
     }
+    .article {
+        &__title {
+            width: 100vw;
+        }
+    }
 }
 
 @media (max-width: 567px) {
@@ -447,8 +458,8 @@ a {
         }
     }
     .article {
-        &__categories {
-            max-height: 30rem;
+        &__title {
+            width: 100vw;
         }
     }
 }

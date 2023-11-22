@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import philippePetain from '../../public/article/PhilippePetain.png';
-import imgNotFund from '../../public/article/404.jpg';
+import philippePetain from '../../../public/article/PhilippePetain.png';
+import imgNotFund from '../../../public/article/404.jpg';
 
-export default function Article() {
+export default function undeservedlyExalted() {
     return (
         <div className="article">
             <div className="article__topBar">
@@ -25,74 +25,7 @@ export default function Article() {
                     </div>
                 </div>
             </div>
-            <Link href="/article/undeservedlyVilified" className="link">
-                <div className="article__title link">
-                    Незаслуденно очерненные
-                </div>
-            </Link>
-            <div className="article__personalities">
-                <div className="article__personalities__persona">
-                    <Link href="/article/philippePetain" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={philippePetain}
-                                alt="philippePetain"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
-                            Aнри Филипп Петен
-                        </div>
-                    </Link>
-                </div>
-                <div className="article__personalities__persona">
-                    <Link href="/error404" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={imgNotFund}
-                                alt="imgNotFund"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
-                            Lorem, ipsum dolor.
-                        </div>
-                    </Link>
-                </div>
-                <div className="article__personalities__persona">
-                    <Link href="/error404" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={imgNotFund}
-                                alt="imgNotFund"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
-                            Lorem, ipsum dolor.
-                        </div>
-                    </Link>
-                </div>
-                <div className="article__personalities__persona">
-                    <Link href="/error404" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={imgNotFund}
-                                alt="imgNotFund"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
-                            Lorem, ipsum dolor.
-                        </div>
-                    </Link>
-                </div>
-            </div>
-            <Link href="/article/undeservedlyExalted" className="link">
-                <div className="article__title link">
-                    Незаслуденно возвеличены
-                </div>
-            </Link>
+            <div className="article__title">Незаслуденно возвеличены</div>
             <div className="article__personalities">
                 <div className="article__personalities__persona">
                     <Link href="/article/philippePetain" className="link">

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   cursor: default;
+  background: #171717;
 }
 
 html {
@@ -274,6 +275,7 @@ a {
   color: #999;
 }
 .article__topBar {
+  margin-top: -10vh;
   height: 7vh;
   width: 95vw;
   background-color: #0a0a0a;
@@ -310,10 +312,14 @@ a {
   color: #ff5000;
 }
 .article__title {
-  padding-top: 20vh;
+  width: 45vw;
+  margin-top: 10vh;
   margin-left: 5vw;
   font-size: 3rem;
   color: #f6f6f6;
+}
+.article__title:hover {
+  color: #ff5000;
 }
 .article__personalities {
   width: 90vw;
@@ -356,6 +362,9 @@ a {
   html {
     font-size: 10px;
   }
+  .article__title {
+    width: 100vw;
+  }
 }
 @media (max-width: 567px) {
   html {
@@ -389,8 +398,8 @@ a {
     justify-content: end;
     width: 70vw;
   }
-  .article__categories {
-    max-height: 30rem;
+  .article__title {
+    width: 100vw;
   }
 }
 @keyframes flashing {
