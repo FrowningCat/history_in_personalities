@@ -12,73 +12,73 @@ export default function undeservedlyExalted() {
                 </div>
                 <div className="article__topBar__links">
                     <div className="article__topBar__links__text link">
-                        lorem
+                        Главная страница
                     </div>
                     <div className="article__topBar__links__text link">
-                        lorem
+                        Разделы
                     </div>
                     <div className="article__topBar__links__text link">
-                        lorem
+                        Партнеры
                     </div>
                     <div className="article__topBar__links__text link">
-                        lorem
+                        О нас
                     </div>
                 </div>
             </div>
             <div className="article__title">Незаслуденно возвеличены</div>
             <div className="article__personalities">
                 <div className="article__personalities__persona">
-                    <Link href="/article/philippePetain" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={philippePetain}
-                                alt="philippePetain"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
+                    <div className="article__personalities__persona__img">
+                        <Image
+                            src={philippePetain}
+                            alt="philippePetain"
+                            className="article__personalities__persona__img__imgSize linkImg"
+                        />
+                    </div>
+                    <Link href="/article/philippePetain">
+                        <div className="article__personalities__persona__name link">
                             Aнри Филипп Петен
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
-                    <Link href="/error404" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={imgNotFund}
-                                alt="imgNotFund"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
+                    <div className="article__personalities__persona__img">
+                        <Image
+                            src={imgNotFund}
+                            alt="imgNotFund"
+                            className="article__personalities__persona__img__imgSize linkImg"
+                        />
+                    </div>
+                    <Link href="/error404">
+                        <div className="article__personalities__persona__name link">
                             Lorem, ipsum dolor.
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
-                    <Link href="/error404" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={imgNotFund}
-                                alt="imgNotFund"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
+                    <div className="article__personalities__persona__img">
+                        <Image
+                            src={imgNotFund}
+                            alt="imgNotFund"
+                            className="article__personalities__persona__img__imgSize linkImg"
+                        />
+                    </div>
+                    <Link href="/error404">
+                        <div className="article__personalities__persona__name link">
                             Lorem, ipsum dolor.
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
-                    <Link href="/error404" className="link">
-                        <div className="article__personalities__persona__img">
-                            <Image
-                                src={imgNotFund}
-                                alt="imgNotFund"
-                                className="article__personalities__persona__img__imgSize linkImg"
-                            />
-                        </div>
-                        <div className="article__personalities__persona__name">
+                    <div className="article__personalities__persona__img">
+                        <Image
+                            src={imgNotFund}
+                            alt="imgNotFund"
+                            className="article__personalities__persona__img__imgSize linkImg"
+                        />
+                    </div>
+                    <Link href="/error404">
+                        <div className="article__personalities__persona__name link">
                             Lorem, ipsum dolor.
                         </div>
                     </Link>

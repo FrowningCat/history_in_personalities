@@ -271,13 +271,14 @@ a {
 
 .article {
   margin-top: -10vh;
+  padding-bottom: 5vh;
   background: #171717;
   color: #999;
   min-height: 110vh;
   overflow: hidden;
 }
 .article__topBar {
-  margin-top: -7vh;
+  margin-top: 10vh;
   z-index: 2;
   height: 7vh;
   width: 95vw;
@@ -300,7 +301,7 @@ a {
   display: flex;
   gap: 1rem;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 .article__topBar__links__text {
   display: grid;
@@ -316,7 +317,7 @@ a {
 }
 .article__title {
   width: 45vw;
-  margin-top: 17vh;
+  margin-top: 18vh;
   margin-left: 5vw;
   font-size: 3rem;
   color: #f6f6f6;

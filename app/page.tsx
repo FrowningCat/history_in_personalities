@@ -28,7 +28,7 @@ export default function Home() {
                             Герой Предатель Патриот
                         </div>
                     </div>
-                    <div className="lending__header__text__date">22.11</div>
+                    <div className="lending__header__text__date">25.11</div>
                 </div>
             </header>
             <main className="lending__main">
