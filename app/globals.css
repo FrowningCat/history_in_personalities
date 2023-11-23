@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   cursor: default;
-  font-family: "Playfair Display";
 }
 
 html {
@@ -50,6 +49,7 @@ a {
 }
 
 .lending {
+  font-family: "Playfair Display";
   background-color: #171717;
   color: #999;
   padding-left: 5vw;
@@ -103,7 +103,7 @@ a {
   align-items: center;
   text-align: end;
   height: 25vh;
-  padding-top: 20vh;
+  padding-top: 17vh;
   font-weight: 700;
   font-size: 10rem;
   color: #ff5000;
@@ -240,6 +240,7 @@ a {
 }
 
 .error {
+  font-family: "Monoton";
   display: grid;
   text-align: center;
   align-items: center;
@@ -271,6 +272,7 @@ a {
 }
 
 .article {
+  font-family: "Playfair Display";
   margin-top: -10vh;
   padding-bottom: 5vh;
   background: #171717;

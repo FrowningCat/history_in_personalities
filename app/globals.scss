@@ -49,7 +49,6 @@ $imgSize: 30rem;
     margin: 0;
     padding: 0;
     cursor: default;
-    font-family: $mainFontFamily;
 }
 
 html {
@@ -96,6 +95,7 @@ a {
 }
 
 .lending {
+    font-family: $mainFontFamily;
     background-color: $mainBackgroundColor;
     color: $mainTextColor;
     padding-left: 5vw;
@@ -146,7 +146,7 @@ a {
                 align-items: center;
                 text-align: end;
                 height: 25vh;
-                padding-top: 20vh;
+                padding-top: 17vh;
                 font-weight: $dateWeight;
                 font-size: $dateSize;
                 color: $selectedTextColor;
@@ -286,6 +286,7 @@ a {
 }
 
 .error {
+    font-family: $errorFontFamily;
     display: grid;
     text-align: center;
     align-items: center;
@@ -318,6 +319,7 @@ a {
 }
 
 .article {
+    font-family: $mainFontFamily;
     margin-top: -10vh;
     padding-bottom: 5vh;
     background: $mainBackgroundColor;
