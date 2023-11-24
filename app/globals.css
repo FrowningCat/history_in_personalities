@@ -54,7 +54,7 @@ a {
   color: #999;
   padding-left: 5vw;
   padding-right: 5vw;
-  font-size: 1.3rem;
+  font-size: calc(1rem + 8px);
 }
 .lending__header {
   display: flex;
@@ -232,7 +232,7 @@ a {
   color: #f6f6f6;
 }
 .lending__footer__text {
-  font-size: 1.1rem;
+  font-size: calc(1.1rem + 4px);
 }
 .lending__footer__text__telegram:hover {
   border-bottom: 1px solid #999;
@@ -358,6 +358,7 @@ a {
 }
 
 .petain {
+  font-family: "Playfair Display";
   background: #171717;
   overflow: hidden;
 }
@@ -382,6 +383,9 @@ a {
   height: 30vh;
   font-size: 3rem;
   color: #ff5000;
+}
+.petain__blokTypeOne__text__title__letter {
+  text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
 }
 .petain__blokTypeOne__text__textual {
   height: 50vh;
@@ -420,6 +424,9 @@ a {
   font-size: 3rem;
   color: #ff5000;
 }
+.petain__blokTypeTwo__text__title__letter {
+  text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
+}
 .petain__blokTypeTwo__text__textual {
   height: 50vh;
   color: #999;
@@ -447,6 +454,9 @@ a {
   height: 30vh;
   font-size: 3rem;
   color: #ff5000;
+}
+.petain__blokTypeThree__text__title__letter {
+  text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
 }
 .petain__blokTypeThree__text__textual {
   height: 50vh;

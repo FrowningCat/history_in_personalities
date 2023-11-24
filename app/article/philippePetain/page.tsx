@@ -11,7 +11,54 @@ export default function Petain() {
             <div className="petain__blokTypeOne">
                 <div className="petain__blokTypeOne__text">
                     <div className="petain__blokTypeOne__text__title">
-                        Lorem, ipsum dolor.
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            L
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            r
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            e
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            ,
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            &nbsp;i
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            p
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            s
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            u
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            &nbsp;d
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            l
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            r
+                        </text>
                     </div>
                     <div className="petain__blokTypeOne__text__textual">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -39,7 +86,54 @@ export default function Petain() {
                 </div>
                 <div className="petain__blokTypeTwo__text">
                     <div className="petain__blokTypeTwo__text__title">
-                        Lorem, ipsum dolor.
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            L
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            r
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            e
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            ,
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            &nbsp;i
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            p
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            s
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            u
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            &nbsp;d
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            l
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            r
+                        </text>
                     </div>
                     <div className="petain__blokTypeTwo__text__textual">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -53,7 +147,54 @@ export default function Petain() {
             <div className="petain__blokTypeThree">
                 <div className="petain__blokTypeThree__text">
                     <div className="petain__blokTypeThree__text__title">
-                        Lorem, ipsum dolor.
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            L
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            r
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            e
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            ,
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            &nbsp;i
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            p
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            s
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            u
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            &nbsp;d
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            l
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeThree__text__title__letter">
+                            r
+                        </text>
                     </div>
                     <div className="petain__blokTypeThree__text__textual">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -67,7 +208,54 @@ export default function Petain() {
             <div className="petain__blokTypeOne">
                 <div className="petain__blokTypeOne__text">
                     <div className="petain__blokTypeOne__text__title">
-                        Lorem, ipsum dolor.
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            L
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            r
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            e
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            ,
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            &nbsp;i
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            p
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            s
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            u
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            &nbsp;d
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            l
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeOne__text__title__letter">
+                            r
+                        </text>
                     </div>
                     <div className="petain__blokTypeOne__text__textual">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -95,7 +283,54 @@ export default function Petain() {
                 </div>
                 <div className="petain__blokTypeTwo__text">
                     <div className="petain__blokTypeTwo__text__title">
-                        Lorem, ipsum dolor.
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            L
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            r
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            e
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            ,
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            &nbsp;i
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            p
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            s
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            u
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            m
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            &nbsp;d
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            l
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            o
+                        </text>
+                        <text className="petain__blokTypeTwo__text__title__letter">
+                            r
+                        </text>
                     </div>
                     <div className="petain__blokTypeTwo__text__textual">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.

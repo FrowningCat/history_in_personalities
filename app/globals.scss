@@ -100,7 +100,7 @@ a {
     color: $mainTextColor;
     padding-left: 5vw;
     padding-right: 5vw;
-    font-size: $mainSizeText;
+    font-size: calc(1rem + 8px);
     &__header {
         display: flex;
         margin: auto;
@@ -276,7 +276,7 @@ a {
             color: $headerTextColor;
         }
         &__text {
-            font-size: $footerSizeText;
+            font-size: calc($footerSizeText + 4px);
             &__telegram:hover {
                 border-bottom: 1px solid $mainTextColor;
                 box-sizing: border-box;
@@ -405,6 +405,7 @@ a {
 }
 
 .petain {
+    font-family: $mainFontFamily;
     background: $mainBackgroundColor;
     overflow: hidden;
     &__blokTypeOne {
@@ -426,6 +427,9 @@ a {
                 height: 30vh;
                 font-size: 3rem;
                 color: $f;
+                &__letter {
+                    text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
+                }
             }
             &__textual {
                 height: 50vh;
@@ -463,6 +467,9 @@ a {
                 height: 30vh;
                 font-size: 3rem;
                 color: $f;
+                &__letter {
+                    text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
+                }
             }
             &__textual {
                 height: 50vh;
@@ -491,6 +498,9 @@ a {
                 height: 30vh;
                 font-size: 3rem;
                 color: $f;
+                &__letter {
+                    text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
+                }
             }
             &__textual {
                 height: 50vh;
