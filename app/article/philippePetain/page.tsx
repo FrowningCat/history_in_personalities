@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import p1 from '../../../public/person/philippePetain/p5.png';
+import p1 from '../../../public/person/philippePetain/p1.png';
 import p2 from '../../../public/person/philippePetain/p2.png';
 import p3 from '../../../public/person/philippePetain/p3.png';
 import p4 from '../../../public/person/philippePetain/p4.png';

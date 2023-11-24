@@ -398,10 +398,7 @@ a {
   width: 50vw;
 }
 .petain__blokTypeOne__img__imgSize {
-  margin-top: 5rem;
-  margin-left: 1rem;
   border-radius: 75% 0 0 30%;
-  border: 1px solid;
 }
 .petain__blokTypeTwo {
   height: 100vh;
@@ -415,7 +412,6 @@ a {
   display: grid;
   height: 80vh;
   width: 50vw;
-  margin-left: 2rem;
 }
 .petain__blokTypeTwo__text__title {
   display: flex;
@@ -473,6 +469,24 @@ a {
     width: 50vw;
     margin-left: -5vw;
   }
+  .petain__blokTypeOne__img {
+    overflow: hidden;
+    margin-top: 25vh;
+    width: 60vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .petain__blokTypeTwo__img {
+    overflow: hidden;
+    margin-top: 25vh;
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (max-width: 768px) {
   html {
@@ -485,6 +499,24 @@ a {
     justify-content: end;
     width: 50vw;
     margin-left: -5vw;
+  }
+  .petain__blokTypeOne__img {
+    overflow: hidden;
+    margin-top: 50vh;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .petain__blokTypeTwo__img {
+    overflow: hidden;
+    margin-top: 25vh;
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 567px) {
@@ -525,6 +557,16 @@ a {
   }
   .article__title {
     width: 100vw;
+  }
+  .petain__blokTypeTwo__img {
+    margin-left: -5vw;
+    overflow: hidden;
+    margin-top: 25vh;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @keyframes flashing {
