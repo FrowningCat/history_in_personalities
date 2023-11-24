@@ -408,6 +408,29 @@ a {
     font-family: $mainFontFamily;
     background: $mainBackgroundColor;
     overflow: hidden;
+    &__title {
+        font-size: 4rem;
+        background: linear-gradient(to right, blue, white, red);
+        -webkit-background-clip: text;
+        color: transparent;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+    &__subtitle {
+        font-size: 2rem;
+        background: linear-gradient(to right, blue, white, red);
+        -webkit-background-clip: text;
+        color: transparent;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20vh;
+    }
     &__blokTypeOne {
         height: 100vh;
         display: flex;
@@ -457,6 +480,7 @@ a {
             display: grid;
             height: 80vh;
             width: 50vw;
+            margin-right: 5vw;
             &__title {
                 display: flex;
                 align-items: center;
@@ -575,6 +599,14 @@ a {
                 justify-content: center;
                 align-items: center;
             }
+            &__text {
+                &__title {
+                    height: 15vh;
+                }
+                &__textual {
+                    height: 65vh;
+                }
+            }
         }
         &__blokTypeTwo {
             &__img {
@@ -585,6 +617,14 @@ a {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
+            &__text {
+                &__title {
+                    height: 15vh;
+                }
+                &__textual {
+                    height: 65vh;
+                }
             }
         }
     }
@@ -648,6 +688,24 @@ a {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
+            &__text {
+                &__title {
+                    height: 15vh;
+                }
+                &__textual {
+                    height: 65vh;
+                }
+            }
+        }
+        &__blokTypeThree {
+            &__text {
+                &__title {
+                    height: 15vh;
+                }
+                &__textual {
+                    height: 65vh;
+                }
             }
         }
     }

@@ -362,6 +362,29 @@ a {
   background: #171717;
   overflow: hidden;
 }
+.petain__title {
+  font-size: 4rem;
+  background: linear-gradient(to right, blue, white, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.petain__subtitle {
+  font-size: 2rem;
+  background: linear-gradient(to right, blue, white, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20vh;
+}
 .petain__blokTypeOne {
   height: 100vh;
   display: flex;
@@ -412,6 +435,7 @@ a {
   display: grid;
   height: 80vh;
   width: 50vw;
+  margin-right: 5vw;
 }
 .petain__blokTypeTwo__text__title {
   display: flex;
@@ -509,6 +533,12 @@ a {
     justify-content: center;
     align-items: center;
   }
+  .petain__blokTypeOne__text__title {
+    height: 15vh;
+  }
+  .petain__blokTypeOne__text__textual {
+    height: 65vh;
+  }
   .petain__blokTypeTwo__img {
     overflow: hidden;
     margin-top: 25vh;
@@ -517,6 +547,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .petain__blokTypeTwo__text__title {
+    height: 15vh;
+  }
+  .petain__blokTypeTwo__text__textual {
+    height: 65vh;
   }
 }
 @media (max-width: 567px) {
@@ -567,6 +603,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .petain__blokTypeTwo__text__title {
+    height: 15vh;
+  }
+  .petain__blokTypeTwo__text__textual {
+    height: 65vh;
+  }
+  .petain__blokTypeThree__text__title {
+    height: 15vh;
+  }
+  .petain__blokTypeThree__text__textual {
+    height: 65vh;
   }
 }
 @keyframes flashing {
