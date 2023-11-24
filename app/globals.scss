@@ -520,6 +520,7 @@ a {
             &__photo {
                 justify-content: end;
                 width: 50vw;
+                margin-left: -5vw;
             }
         }
     }
@@ -532,6 +533,15 @@ a {
     .article {
         &__title {
             width: 100vw;
+        }
+    }
+    .lending {
+        &__teaser {
+            &__photo {
+                justify-content: end;
+                width: 50vw;
+                margin-left: -5vw;
+            }
         }
     }
 }
@@ -567,6 +577,7 @@ a {
         }
         &__teaser {
             &__photo {
+                margin-left: -5vw;
                 justify-content: end;
                 width: 70vw;
             }
