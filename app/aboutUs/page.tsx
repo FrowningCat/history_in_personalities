@@ -55,6 +55,19 @@ export default function aboutUs() {
                 </div>
             </div>
             <div className="lorem">О нас</div>
+            <footer className="lending__footer">
+                <div className="lending__footer__title">Контакты</div>
+                <div className="lending__footer__text">
+                    Telegram:{' '}
+                    <Link
+                        href="https://t.me/Frowning_Cat"
+                        className="lending__footer__text__telegram link"
+                    >
+                        Frowning_Cat
+                    </Link>
+                    <div>Email: vsavinvkov60@gmail.com</div>
+                </div>
+            </footer>
         </div>
     );
 }

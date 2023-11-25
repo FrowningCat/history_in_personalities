@@ -28,7 +28,7 @@ export default function Home() {
                             Герой Предатель Патриот
                         </div>
                     </div>
-                    <div className="lending__header__text__date">25.11</div>
+                    <div className="lending__header__text__date">27.11</div>
                 </div>
             </header>
             <main className="lending__main">
@@ -40,12 +40,19 @@ export default function Home() {
                         Взгляните на исторические события глазами их вершителей
                     </div>
                     <div className="lending__main__textBlok__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Tempora nesciunt, dolor aspernatur, in vero qui ex fuga
-                        aut nam aliquam sapiente voluptatem dolorum adipisci
-                        harum minus quod similique exercitationem dignissimos
-                        inventore consequuntur porro labore. Magni natus
-                        delectus ab. Minima, ex!
+                        Человек хорошо знающий историю, не только своей страны,
+                        но и других, в меньшей степени подвержен влиянию
+                        пропаганды и имеет более критический взгляд на мир.
+                        Задача данного проекта дать возможность читателю
+                        взглянуть на исторические личности с другой стороны, не
+                        с целью оправдать или принизить их, а с целью понять
+                        причины их действий.
+                        <br />{' '}
+                        <text className="linkText link">
+                            <Link href="/article" className="link">
+                                Узнать больше
+                            </Link>
+                        </text>
                     </div>
                 </div>
                 <div className="lending__main__gridBlok">
@@ -75,33 +82,6 @@ export default function Home() {
                                 className="lending__main__gridBlok__imgSize"
                             />{' '}
                         </Link>
-                    </div>
-                    <div className="lending__main__gridBlok__block4">
-                        <div className="lending__main__gridBlok__subtitle">
-                            Lorem, ipsum dolor.
-                        </div>
-                        <div className="lending__main__gridBlok__text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Magni, quidem.
-                        </div>
-                    </div>
-                    <div className="lending__main__gridBlok__block5">
-                        <div className="lending__main__gridBlok__subtitle">
-                            Lorem, ipsum dolor.
-                        </div>
-                        <div className="lending__main__gridBlok__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Recusandae vel doloremque, nam expedita
-                            sapiente similique cupiditate? Placeat, at impedit
-                            accusantium ipsa neque, possimus vel similique
-                            perferendis quaerat, numquam eveniet iusto
-                            laudantium natus esse eius culpa. <br />{' '}
-                            <text className="linkText link">
-                                <Link href="/article" className="link">
-                                    Узнать больше
-                                </Link>
-                            </text>
-                        </div>
                     </div>
                     <div className="lending__main__gridBlok__block6">
                         <Link
@@ -138,16 +118,12 @@ export default function Home() {
                     <div className="lending__teaser__textBlock__title">
                         Aнри Филипп Петен
                     </div>
-                    <div className="lending__teaser__textBlock__subtitle">
-                        Биография
-                    </div>
                     <div className="lending__teaser__textBlock__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nam ullam cum, quaerat repellendus saepe maiores,
-                        sapiente cupiditate unde esse inventore ducimus
-                        similique accusamus at minima velit assumenda illum
-                        explicabo corrupti? Excepturi tempora qui laudantium.
-                        Autem culpa commodi atque dolorem dolores? <br />
+                        Как, герой первой мировой войны, “Верденский лев”,
+                        патриот своей страны, возглавил колабрационное, про
+                        немецкое правительство, и почему долгие десятилетия
+                        французские политики возлагают цветы на его могилу.{' '}
+                        <br />
                         <text className="linkText link">
                             <Link
                                 href="/article/philippePetain"
@@ -159,19 +135,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <footer className="lending__footer">
-                <div className="lending__footer__title">Контакты</div>
-                <div className="lending__footer__text">
-                    Telegram:{' '}
-                    <Link
-                        href="https://t.me/Frowning_Cat"
-                        className="lending__footer__text__telegram link"
-                    >
-                        Frowning_Cat
-                    </Link>
-                    <div>Email: vsavinvkov60@gmail.com</div>
-                </div>
-            </footer>
         </div>
     );
 }

@@ -62,6 +62,7 @@ a {
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: calc(1rem + 8px);
+  height: auto;
 }
 .lending__header {
   display: flex;
@@ -115,15 +116,12 @@ a {
   font-size: 10rem;
   color: #ff5000;
 }
-.lending__header__text__date:hover {
-  color: darkred;
-}
 .lending__main {
   margin-top: 20vh;
   height: 100%;
 }
 .lending__main__textBlok {
-  width: 80vw;
+  width: 90vw;
   text-align: end;
   display: grid;
   gap: 15px;
@@ -145,10 +143,10 @@ a {
   gap: 20px;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 350px);
-  grid-template-rows: repeat(7, 50px);
+  grid-template-rows: repeat(5, 100px);
 }
 .lending__main__gridBlok__block1 {
-  grid-row: span 4;
+  grid-row: span 5;
 }
 .lending__main__gridBlok__block2 {
   grid-row: span 2;
@@ -156,22 +154,8 @@ a {
 .lending__main__gridBlok__block3 {
   grid-row: span 3;
 }
-.lending__main__gridBlok__block4 {
-  grid-row: span 4;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 20px;
-}
-.lending__main__gridBlok__block5 {
-  grid-row: span 5;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 20px;
-}
 .lending__main__gridBlok__block6 {
-  grid-row: span 4;
+  grid-row: span 3;
 }
 .lending__main__gridBlok__block7 {
   grid-row: span 2;
@@ -192,7 +176,7 @@ a {
   margin-right: 1rem;
 }
 .lending__teaser {
-  height: 80vh;
+  min-height: 80vh;
   margin-top: 15vh;
 }
 .lending__teaser__photo {
@@ -230,8 +214,8 @@ a {
   z-index: 5;
 }
 .lending__footer {
-  margin-top: 10vh;
-  padding-bottom: 10px;
+  margin-top: 5vh;
+  margin-left: 5vw;
 }
 .lending__footer__title {
   font-weight: 600;

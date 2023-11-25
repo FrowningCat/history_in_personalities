@@ -108,6 +108,7 @@ a {
     padding-left: 5vw;
     padding-right: 5vw;
     font-size: calc(1rem + 8px);
+    height: auto;
     &__header {
         display: flex;
         margin: auto;
@@ -158,16 +159,13 @@ a {
                 font-size: $dateSize;
                 color: $selectedTextColor;
             }
-            &__date:hover {
-                color: $selectedTextColorTwo;
-            }
         }
     }
     &__main {
         margin-top: 20vh;
         height: 100%;
         &__textBlok {
-            width: 80vw;
+            width: 90vw;
             text-align: end;
             display: grid;
             gap: 15px;
@@ -189,9 +187,9 @@ a {
             gap: 20px;
             justify-content: center;
             grid-template-columns: repeat(auto-fit, 350px);
-            grid-template-rows: repeat(7, 50px);
+            grid-template-rows: repeat(5, 100px);
             &__block1 {
-                grid-row: span 4;
+                grid-row: span 5;
             }
             &__block2 {
                 grid-row: span 2;
@@ -199,22 +197,8 @@ a {
             &__block3 {
                 grid-row: span 3;
             }
-            &__block4 {
-                grid-row: span 4;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                gap: 20px;
-            }
-            &__block5 {
-                grid-row: span 5;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                gap: 20px;
-            }
             &__block6 {
-                grid-row: span 4;
+                grid-row: span 3;
             }
             &__block7 {
                 grid-row: span 2;
@@ -237,7 +221,7 @@ a {
         }
     }
     &__teaser {
-        height: 80vh;
+        min-height: 80vh;
         margin-top: 15vh;
         &__photo {
             display: flex;
@@ -275,8 +259,8 @@ a {
         }
     }
     &__footer {
-        margin-top: 10vh;
-        padding-bottom: 10px;
+        margin-top: 5vh;
+        margin-left: 5vw;
         &__title {
             font-weight: $titleWeight;
             font-size: $titleSizeAdditionally;
