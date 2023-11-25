@@ -128,7 +128,7 @@ export default function Article() {
                     </Link>
                 </div>
             </div>
-            <div className="article__title link">
+            <div className="article__title__dop link">
                 <Link href="/article/undeservedlyExalted" className="link">
                     Незаслуденно возвеличены
                 </Link>
@@ -177,7 +177,7 @@ export default function Article() {
                     </Link>
                 </div>
             </div>
-            <div className="article__title link">
+            <div className="article__title__dop link">
                 <Link href="/article/crazyStories" className="link">
                     Безумные истории
                 </Link>

@@ -386,11 +386,18 @@ a {
         }
     }
     &__title {
-        width: 45vw;
+        width: 42vw;
         margin-top: 18vh;
         margin-left: 5vw;
         font-size: 3rem;
         color: $headerTextColor;
+        &__dop {
+            width: 42vw;
+            margin-top: 5vh;
+            margin-left: 5vw;
+            font-size: 3rem;
+            color: $headerTextColor;
+        }
     }
     &__title:hover {
         color: $f;
@@ -401,9 +408,9 @@ a {
         display: grid;
         margin-left: 5vw;
         margin-right: 5vw;
-        justify-content: space-between;
+        justify-content: center;
         grid-template-columns: repeat(auto-fit, 17rem);
-        gap: 1rem;
+        gap: 5rem;
         &__persona {
             z-index: 1;
             min-height: 200px;
@@ -552,6 +559,17 @@ a {
     }
 }
 
+@media (max-width: 1300px) {
+    html {
+        font-size: 14px;
+    }
+    .article {
+        &__title {
+            width: 100vw;
+        }
+    }
+}
+
 @media (max-width: 992px) {
     html {
         font-size: 12px;
@@ -589,6 +607,11 @@ a {
             }
         }
     }
+    .article {
+        &__title {
+            width: 100vw;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -596,8 +619,14 @@ a {
         font-size: 10px;
     }
     .article {
+        &__topBar {
+            height: 5vh;
+        }
         &__title {
             width: 100vw;
+            &__dop {
+                width: 100vw;
+            }
         }
     }
     .lending {
@@ -690,12 +719,16 @@ a {
     }
     .article {
         &__topBar {
+            height: 5vh;
             &__links {
-                font-size: 1rem;
+                font-size: calc(1rem + 4px);
             }
         }
         &__title {
             width: 100vw;
+            &__dop {
+                width: 100vw;
+            }
         }
     }
     .petain {
@@ -726,6 +759,26 @@ a {
                 }
                 &__textual {
                     height: 65vh;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    html {
+        font-size: 8px;
+    }
+    .article {
+        &__topBar {
+            height: 5vh;
+            &__links {
+                font-size: calc(1rem + 2px);
+            }
+            &__title {
+                width: 100vw;
+                &__dop {
+                    width: 100vw;
                 }
             }
         }
