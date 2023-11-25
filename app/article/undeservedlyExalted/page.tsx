@@ -13,16 +13,24 @@ export default function undeservedlyExalted() {
                 </div>
                 <div className="article__topBar__links">
                     <div className="article__topBar__links__text link">
-                        Главная страница
+                        <Link href="/" className="link">
+                            Главная страница
+                        </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        Разделы
+                        <Link href="/article" className="link">
+                            Разделы
+                        </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        Партнеры
+                        <Link href="/partners" className="link">
+                            Партнеры
+                        </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        О нас
+                        <Link href="/aboutUs" className="link">
+                            О нас
+                        </Link>
                     </div>
                 </div>
             </div>

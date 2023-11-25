@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import imgNotFund from '../../../public/article/404.jpg';
 
-export default function crazyStories() {
+export default function aboutUs() {
     return (
         <div className="article">
             <div className="article__topBar">
@@ -26,27 +24,8 @@ export default function crazyStories() {
                         </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        <Link href="/aboutUs" className="link">
-                            О нас
-                        </Link>
+                        О нас
                     </div>
-                </div>
-            </div>
-            <div className="article__title">Безумные истории</div>
-            <div className="article__personalities">
-                <div className="article__personalities__persona">
-                    <div className="article__personalities__persona__img">
-                        <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
-                            className="article__personalities__persona__img__imgSize linkImg"
-                        />
-                    </div>
-                    <Link href="/error404">
-                        <div className="article__personalities__persona__name link">
-                            Василий Яковлевич Баранщиков
-                        </div>
-                    </Link>
                 </div>
             </div>
         </div>

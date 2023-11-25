@@ -26,10 +26,14 @@ export default function Article() {
                         Разделы
                     </div>
                     <div className="article__topBar__links__text link">
-                        Партнеры
+                        <Link href="/partners" className="link">
+                            Партнеры
+                        </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        О нас
+                        <Link href="/aboutUs" className="link">
+                            О нас
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -14,16 +14,24 @@ export default function undeservedlyVilified() {
                 </div>
                 <div className="article__topBar__links">
                     <div className="article__topBar__links__text link">
-                        lorem
+                        <Link href="/" className="link">
+                            Главная страница
+                        </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        lorem
+                        <Link href="/article" className="link">
+                            Разделы
+                        </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        lorem
+                        <Link href="/partners" className="link">
+                            Партнеры
+                        </Link>
                     </div>
                     <div className="article__topBar__links__text link">
-                        lorem
+                        <Link href="/aboutUs" className="link">
+                            О нас
+                        </Link>
                     </div>
                 </div>
             </div>
