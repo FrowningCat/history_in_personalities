@@ -355,12 +355,26 @@ a {
                 display: grid;
                 padding-right: 1rem;
                 align-items: center;
+                &__sections {
+                    display: none;
+                    position: absolute;
+                    min-width: 160px;
+                    color: $headerTextColor;
+                    gap: calc(1rem - 8px);
+                    z-index: 1;
+                    &__name:hover {
+                        color: #ff5000;
+                    }
+                }
             }
             &__text:not(:last-child) {
                 border-right: 1px solid $headerTextColor;
             }
             &__text:hover {
                 color: $f;
+            }
+            &__text:hover &__text__sections {
+                display: grid;
             }
         }
     }

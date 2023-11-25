@@ -312,11 +312,25 @@ a {
   padding-right: 1rem;
   align-items: center;
 }
+.article__topBar__links__text__sections {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  color: #f6f6f6;
+  gap: calc(1rem - 8px);
+  z-index: 1;
+}
+.article__topBar__links__text__sections__name:hover {
+  color: #ff5000;
+}
 .article__topBar__links__text:not(:last-child) {
   border-right: 1px solid #f6f6f6;
 }
 .article__topBar__links__text:hover {
   color: #ff5000;
+}
+.article__topBar__links__text:hover .article__topBar__links__text__sections {
+  display: grid;
 }
 .article__title {
   width: 45vw;
