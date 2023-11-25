@@ -326,6 +326,7 @@ a {
   color: #f6f6f6;
   gap: calc(1rem - 8px);
   z-index: 1;
+  padding-top: 1rem;
 }
 .article__topBar__links__text__sections__name:hover {
   color: #ff5000;
@@ -352,6 +353,9 @@ a {
   margin-left: 5vw;
   font-size: 3rem;
   color: #f6f6f6;
+}
+.article__title__dop:hover {
+  color: #ff5000;
 }
 .article__title:hover {
   color: #ff5000;

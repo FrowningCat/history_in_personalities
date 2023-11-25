@@ -369,6 +369,7 @@ a {
                     color: $headerTextColor;
                     gap: calc(1rem - 8px);
                     z-index: 1;
+                    padding-top: 1rem;
                     &__name:hover {
                         color: #ff5000;
                     }
@@ -397,6 +398,9 @@ a {
             margin-left: 5vw;
             font-size: 3rem;
             color: $headerTextColor;
+        }
+        &__dop:hover {
+            color: $f;
         }
     }
     &__title:hover {
