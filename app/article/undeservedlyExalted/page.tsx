@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import philippePetain from '../../../public/article/PhilippePetain.png';
-import imgNotFund from '../../../public/article/404.jpg';
+import alexandetGreat from '../../../public/article/AlexandetGreat.png';
+import charlesDeGaulle from '../../../public/article/CharlesDeGaulle.png';
+import franciscoFranco from '../../../public/article/FranciscoFranco.png';
 
 export default function undeservedlyExalted() {
     return (
@@ -30,56 +31,42 @@ export default function undeservedlyExalted() {
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={philippePetain}
-                            alt="philippePetain"
+                            src={alexandetGreat}
+                            alt="alexandetGreat"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
-                    <Link href="/article/philippePetain">
+                    <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Aнри Филипп Петен
+                            Александр македонский
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={charlesDeGaulle}
+                            alt="charlesDeGaulle"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Шарль де Голль
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={franciscoFranco}
+                            alt="franciscoFranco"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
-                        </div>
-                    </Link>
-                </div>
-                <div className="article__personalities__persona">
-                    <div className="article__personalities__persona__img">
-                        <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
-                            className="article__personalities__persona__img__imgSize linkImg"
-                        />
-                    </div>
-                    <Link href="/error404">
-                        <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Франсиско Франко
                         </div>
                     </Link>
                 </div>

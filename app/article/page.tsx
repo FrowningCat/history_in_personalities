@@ -1,6 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import philippePetain from '../../public/article/PhilippePetain.png';
+import ferdinandPorsche from '../../public/article/FerdinandPorsche.png';
+import cardinalRichelieu from '../../public/article/CardinalRichelieu.png';
+import guntherQuandt from '../../public/article/GuntherQuandt.png';
+import alexandetGreat from '../../public/article/AlexandetGreat.png';
+import charlesDeGaulle from '../../public/article/CharlesDeGaulle.png';
+import franciscoFranco from '../../public/article/FranciscoFranco.png';
 import imgNotFund from '../../public/article/404.jpg';
 
 export default function Article() {
@@ -50,42 +56,42 @@ export default function Article() {
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={ferdinandPorsche}
+                            alt="ferdinandPorsche"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Фердинанд Порше
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={cardinalRichelieu}
+                            alt="cardinalRichelieu"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Кардинал Ришелье
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={guntherQuandt}
+                            alt="guntherQuandt"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Гюнтер Квандт
                         </div>
                     </Link>
                 </div>
@@ -99,17 +105,52 @@ export default function Article() {
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={philippePetain}
-                            alt="philippePetain"
+                            src={alexandetGreat}
+                            alt="alexandetGreat"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
-                    <Link href="/article/philippePetain">
+                    <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Aнри Филипп Петен
+                            Александр македонский
                         </div>
                     </Link>
                 </div>
+                <div className="article__personalities__persona">
+                    <div className="article__personalities__persona__img">
+                        <Image
+                            src={charlesDeGaulle}
+                            alt="charlesDeGaulle"
+                            className="article__personalities__persona__img__imgSize linkImg"
+                        />
+                    </div>
+                    <Link href="/error404">
+                        <div className="article__personalities__persona__name link">
+                            Шарль де Голль
+                        </div>
+                    </Link>
+                </div>
+                <div className="article__personalities__persona">
+                    <div className="article__personalities__persona__img">
+                        <Image
+                            src={franciscoFranco}
+                            alt="franciscoFranco"
+                            className="article__personalities__persona__img__imgSize linkImg"
+                        />
+                    </div>
+                    <Link href="/error404">
+                        <div className="article__personalities__persona__name link">
+                            Франсиско Франко
+                        </div>
+                    </Link>
+                </div>
+            </div>
+            <div className="article__title link">
+                <Link href="/article/crazyStories" className="link">
+                    Безумные истории
+                </Link>
+            </div>
+            <div className="article__personalities">
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
@@ -120,35 +161,7 @@ export default function Article() {
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
-                        </div>
-                    </Link>
-                </div>
-                <div className="article__personalities__persona">
-                    <div className="article__personalities__persona__img">
-                        <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
-                            className="article__personalities__persona__img__imgSize linkImg"
-                        />
-                    </div>
-                    <Link href="/error404">
-                        <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
-                        </div>
-                    </Link>
-                </div>
-                <div className="article__personalities__persona">
-                    <div className="article__personalities__persona__img">
-                        <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
-                            className="article__personalities__persona__img__imgSize linkImg"
-                        />
-                    </div>
-                    <Link href="/error404">
-                        <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Василий Яковлевич Баранщиков
                         </div>
                     </Link>
                 </div>

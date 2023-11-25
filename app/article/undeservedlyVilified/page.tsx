@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import philippePetain from '../../../public/article/PhilippePetain.png';
-import imgNotFund from '../../../public/article/404.jpg';
+import ferdinandPorsche from '../../../public/article/FerdinandPorsche.png';
+import cardinalRichelieu from '../../../public/article/CardinalRichelieu.png';
+import guntherQuandt from '../../../public/article/GuntherQuandt.png';
 
 export default function undeservedlyVilified() {
     return (
@@ -44,42 +46,42 @@ export default function undeservedlyVilified() {
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={ferdinandPorsche}
+                            alt="ferdinandPorsche"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Фердинанд Порше
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={cardinalRichelieu}
+                            alt="cardinalRichelieu"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Кардинал Ришелье
                         </div>
                     </Link>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
-                            src={imgNotFund}
-                            alt="imgNotFund"
+                            src={guntherQuandt}
+                            alt="guntherQuandt"
                             className="article__personalities__persona__img__imgSize linkImg"
                         />
                     </div>
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
-                            Lorem, ipsum dolor.
+                            Гюнтер Квандт
                         </div>
                     </Link>
                 </div>
