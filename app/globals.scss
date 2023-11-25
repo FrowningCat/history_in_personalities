@@ -785,6 +785,37 @@ a {
     }
 }
 
+@media (max-width: 420px) {
+    html {
+        font-size: 8px;
+    }
+    .article {
+        &__topBar {
+            height: 5vh;
+            &__links {
+                font-size: calc(1rem);
+            }
+            &__title {
+                width: 100vw;
+                &__dop {
+                    width: 100vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-height: 620px) {
+    html {
+        font-size: 8px;
+    }
+    .article {
+        &__topBar {
+            height: 5vh;
+        }
+    }
+}
+
 @keyframes flashing {
     0% {
         font-family: 'Monoton', cursive;
