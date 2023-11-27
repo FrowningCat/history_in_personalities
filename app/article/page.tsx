@@ -84,6 +84,14 @@ export default function Article() {
                             Aнри Филипп Петен
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -98,6 +106,14 @@ export default function Article() {
                             Фердинанд Порше
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -110,6 +126,14 @@ export default function Article() {
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
                             Кардинал Ришелье
+                        </div>
+                        <div className="article__personalities__persona__block">
+                            <div className="article__personalities__persona__block__text">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Optio quasi beatae doloribus
+                                tenetur voluptates aliquam veniam perferendis
+                                rerum magni consequatur?
+                            </div>
                         </div>
                     </Link>
                 </div>
@@ -126,6 +150,14 @@ export default function Article() {
                             Гюнтер Квандт
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="article__title__dop link">
@@ -147,6 +179,14 @@ export default function Article() {
                             Александр македонский
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -161,6 +201,14 @@ export default function Article() {
                             Шарль де Голль
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -175,6 +223,14 @@ export default function Article() {
                             Франсиско Франко
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="article__title__dop link">
@@ -196,6 +252,14 @@ export default function Article() {
                             Василий Яковлевич Баранщиков
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

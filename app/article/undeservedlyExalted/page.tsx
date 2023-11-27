@@ -75,6 +75,14 @@ export default function undeservedlyExalted() {
                             Александр македонский
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -89,6 +97,14 @@ export default function undeservedlyExalted() {
                             Шарль де Голль
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -103,6 +119,14 @@ export default function undeservedlyExalted() {
                             Франсиско Франко
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -76,6 +76,14 @@ export default function undeservedlyVilified() {
                             Aнри Филипп Петен
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -90,6 +98,14 @@ export default function undeservedlyVilified() {
                             Фердинанд Порше
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
@@ -102,6 +118,14 @@ export default function undeservedlyVilified() {
                     <Link href="/error404">
                         <div className="article__personalities__persona__name link">
                             Кардинал Ришелье
+                        </div>
+                        <div className="article__personalities__persona__block">
+                            <div className="article__personalities__persona__block__text">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Optio quasi beatae doloribus
+                                tenetur voluptates aliquam veniam perferendis
+                                rerum magni consequatur?
+                            </div>
                         </div>
                     </Link>
                 </div>
@@ -118,6 +142,14 @@ export default function undeservedlyVilified() {
                             Гюнтер Квандт
                         </div>
                     </Link>
+                    <div className="article__personalities__persona__block">
+                        <div className="article__personalities__persona__block__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Optio quasi beatae doloribus tenetur
+                            voluptates aliquam veniam perferendis rerum magni
+                            consequatur?
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

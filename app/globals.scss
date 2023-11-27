@@ -450,8 +450,30 @@ a {
             }
             &__name {
                 z-index: 1;
+                height: 1rem;
                 font-size: calc(1rem + 8px);
-                margin: 10px 0;
+                margin: 1rem 0;
+            }
+            &__block {
+                position: absolute;
+                z-index: 2;
+                margin-top: calc(-2rem - 1rem - 4rem);
+                height: 4rem;
+                width: 4rem;
+                background: #000;
+                &__text {
+                    width: 16rem;
+                    display: none;
+                    margin-top: -10rem;
+                    margin-left: calc(1rem - 8px);
+                    font-size: calc(1rem + 2px);
+                    background-color: rgba(0, 0, 0, 0.5);
+                    border-left: 1px solid white;
+                    padding-left: calc(1rem - 8px);
+                }
+            }
+            &__block:hover &__block__text {
+                display: block;
             }
         }
         &__persona:hover {
