@@ -79,10 +79,17 @@ export default function undeservedlyVilified() {
                     </Link>
                     <div className="article__personalities__persona__block">
                         <div className="article__personalities__persona__block__text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Optio quasi beatae doloribus tenetur
-                            voluptates aliquam veniam perferendis rerum magni
-                            consequatur? lorem30
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Officiis, sed! Veritatis voluptatibus
+                            accusamus culpa repellat magni vel est laboriosam
+                            vero tenetur! Suscipit ad perspiciatis repellat
+                            veniam, dignissimos nulla aperiam ea voluptatem sunt
+                            dicta totam minus cupiditate similique molestiae
+                            aliquam? Similique recusandae quam accusantium,
+                            dolorem consectetur praesentium iusto asperiores
+                            deserunt dolor? Sed velit distinctio deserunt
+                            necessitatibus officiis dolorum consequatur! Id,
+                            inventore.
                         </div>
                     </div>
                 </div>
