@@ -4,6 +4,7 @@ import philippePetain from '../../../public/article/PhilippePetain.png';
 import ferdinandPorsche from '../../../public/article/FerdinandPorsche.png';
 import cardinalRichelieu from '../../../public/article/CardinalRichelieu.png';
 import guntherQuandt from '../../../public/article/GuntherQuandt.png';
+import svg from '../../../public/article/menu-svgrepo.svg';
 
 export default function undeservedlyVilified() {
     return (
@@ -81,7 +82,7 @@ export default function undeservedlyVilified() {
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Optio quasi beatae doloribus tenetur
                             voluptates aliquam veniam perferendis rerum magni
-                            consequatur?
+                            consequatur? lorem30
                         </div>
                     </div>
                 </div>
