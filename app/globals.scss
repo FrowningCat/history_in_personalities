@@ -184,24 +184,64 @@ a {
         &__gridBlok {
             margin-top: 10vh;
             display: grid;
-            gap: 20px;
+            gap: 50px;
             justify-content: center;
-            grid-template-columns: repeat(auto-fit, 350px);
-            grid-template-rows: repeat(5, 100px);
+            grid-template-columns: repeat(3, 350px);
+            grid-template-rows: repeat(3, 350px);
             &__block1 {
-                grid-row: span 5;
+                border: 15px solid transparent;
+                border-image: linear-gradient(to top, red, white, red);
+                border-image-slice: 1;
+                transition: 0.5s;
+            }
+            &__block1:hover {
+                border: 10px solid transparent;
+                border-image: linear-gradient(to top, red, white, red);
+                border-image-slice: 1;
             }
             &__block2 {
-                grid-row: span 2;
+                border: 20px solid transparent;
+                border-image: linear-gradient(to left, red, white, blue);
+                border-image-slice: 1;
+                transition: 0.5s;
+            }
+            &__block2:hover {
+                border: 10px solid transparent;
+                border-image: linear-gradient(to left, red, white, blue);
+                border-image-slice: 1;
+                transition: 0.5s;
             }
             &__block3 {
-                grid-row: span 3;
+                border: 20px solid transparent;
+                border-image: linear-gradient(to top, red, orange, red);
+                border-image-slice: 1;
+                transition: 0.5s;
             }
-            &__block6 {
-                grid-row: span 3;
+            &__block3:hover {
+                border: 10px solid transparent;
+                border-image: linear-gradient(to top, red, orange, red);
+                border-image-slice: 1;
+                transition: 0.5s;
             }
-            &__block7 {
-                grid-row: span 2;
+            &__block4 {
+                border: 20px solid white;
+                transition: 0.5s;
+            }
+            &__block4:hover {
+                border: 10px solid white;
+                transition: 0.5s;
+            }
+            &__block5 {
+                border: 20px solid transparent;
+                border-image: linear-gradient(to top, red, orange, black);
+                border-image-slice: 1;
+                transition: 0.5s;
+            }
+            &__block5:hover {
+                border: 10px solid transparent;
+                border-image: linear-gradient(to top, red, orange, black);
+                border-image-slice: 1;
+                transition: 0.5s;
             }
             &__imgSize {
                 height: 100%;
@@ -550,6 +590,16 @@ a {
 @media (max-width: 1300px) {
     html {
         font-size: 14px;
+    }
+    .lending {
+        &__main {
+            &__gridBlok {
+                grid-template-columns: repeat(auto-fit, 350px);
+                &__blockEmpty {
+                    display: none;
+                }
+            }
+        }
     }
     .article {
         &__title {

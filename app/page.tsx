@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import headerPhoto from '../public/landing/headerPhoto.png';
-import charlesDeGaulle from '../public/landing/CharlesDeGaulle.png';
-import marquisDeSade from '../public/landing/MarquisDeSade.png';
-import philippePetain from '../public/landing/PhilippePetain.png';
+import josephII from '../public/landing/JosephII.png';
+import sidCampeador from '../public/landing/SidCampeador.png';
+import yoshihito from '../public/landing/Yoshihito.png';
 import louisRenault from '../public/landing/LouisRenault.png';
 import richelieu from '../public/landing/Richelieu.png';
+import immanuelKant from '../public/landing/ImmanuelKant.png';
 import teaserPhoto from '../public/landing/teaserPhoto.png';
 
 export default function Home() {
@@ -56,11 +57,12 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="lending__main__gridBlok">
+                    <div className="lending__main__gridBlok__blockEmpty"></div>
                     <div className="lending__main__gridBlok__block1">
                         <Link href="/error404" className="linkImg">
                             <Image
-                                src={charlesDeGaulle}
-                                alt="charlesDeGaulle"
+                                src={josephII}
+                                alt="josephII"
                                 className="lending__main__gridBlok__imgSize"
                             />
                         </Link>
@@ -77,29 +79,40 @@ export default function Home() {
                     <div className="lending__main__gridBlok__block3">
                         <Link href="/error404" className="linkImg">
                             <Image
-                                src={marquisDeSade}
-                                alt="marquisDeSade"
+                                src={sidCampeador}
+                                alt="sidCampeador"
                                 className="lending__main__gridBlok__imgSize"
                             />{' '}
                         </Link>
                     </div>
-                    <div className="lending__main__gridBlok__block6">
+                    <div className="lending__main__gridBlok__blockEmpty"></div>
+                    <div className="lending__main__gridBlok__block4">
                         <Link
                             href="/article/philippePetain"
                             className="linkImg"
                         >
                             <Image
-                                src={philippePetain}
-                                alt="philippePetain"
+                                src={yoshihito}
+                                alt="yoshihito"
                                 className="lending__main__gridBlok__imgSize"
                             />
                         </Link>
                     </div>
-                    <div className="lending__main__gridBlok__block7">
+                    <div className="lending__main__gridBlok__blockEmpty"></div>
+                    <div className="lending__main__gridBlok__block2">
                         <Link href="/error404" className="linkImg">
                             <Image
                                 src={richelieu}
                                 alt="richelieu"
+                                className="lending__main__gridBlok__imgSize"
+                            />
+                        </Link>
+                    </div>
+                    <div className="lending__main__gridBlok__block5">
+                        <Link href="/error404" className="linkImg">
+                            <Image
+                                src={immanuelKant}
+                                alt="immanuelKant"
                                 className="lending__main__gridBlok__imgSize"
                             />
                         </Link>
