@@ -146,65 +146,72 @@ a {
   grid-template-rows: repeat(3, 350px);
 }
 .lending__main__gridBlok__block1 {
+  display: flex;
   border: 15px solid transparent;
-  -o-border-image: linear-gradient(to top, red, white, red);
-     border-image: linear-gradient(to top, red, white, red);
+  -o-border-image: linear-gradient(to top, red 33%, white 33% 66%, red 66% 100%);
+     border-image: linear-gradient(to top, red 33%, white 33% 66%, red 66% 100%);
   border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block1:hover {
   border: 10px solid transparent;
-  -o-border-image: linear-gradient(to top, red, white, red);
-     border-image: linear-gradient(to top, red, white, red);
+  -o-border-image: linear-gradient(to top, red 33%, white 33% 66%, red 66% 100%);
+     border-image: linear-gradient(to top, red 33%, white 33% 66%, red 66% 100%);
   border-image-slice: 1;
 }
 .lending__main__gridBlok__block2 {
   border: 20px solid transparent;
-  -o-border-image: linear-gradient(to left, red, white, blue);
-     border-image: linear-gradient(to left, red, white, blue);
+  -o-border-image: linear-gradient(to left, red 33%, white 33% 66%, blue 66% 100%);
+     border-image: linear-gradient(to left, red 33%, white 33% 66%, blue 66% 100%);
   border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block2:hover {
   border: 10px solid transparent;
-  -o-border-image: linear-gradient(to left, red, white, blue);
-     border-image: linear-gradient(to left, red, white, blue);
+  -o-border-image: linear-gradient(to left, red 33%, white 33% 66%, blue 66% 100%);
+     border-image: linear-gradient(to left, red 33%, white 33% 66%, blue 66% 100%);
   border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block3 {
   border: 20px solid transparent;
-  -o-border-image: linear-gradient(to top, red, orange, red);
-     border-image: linear-gradient(to top, red, orange, red);
+  -o-border-image: linear-gradient(to top, red 33%, orange 33% 66%, red 66% 100%);
+     border-image: linear-gradient(to top, red 33%, orange 33% 66%, red 66% 100%);
   border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block3:hover {
   border: 10px solid transparent;
-  -o-border-image: linear-gradient(to top, red, orange, red);
-     border-image: linear-gradient(to top, red, orange, red);
+  -o-border-image: linear-gradient(to top, red 33%, orange 33% 66%, red 66% 100%);
+     border-image: linear-gradient(to top, red 33%, orange 33% 66%, red 66% 100%);
   border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block4 {
-  border: 20px solid white;
+  border: 20px solid transparent;
+  -o-border-image: repeating-conic-gradient(#fff 0 8deg, red 8deg 16deg);
+     border-image: repeating-conic-gradient(#fff 0 8deg, red 8deg 16deg);
+  border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block4:hover {
-  border: 10px solid white;
+  border: 10px solid transparent;
+  -o-border-image: repeating-conic-gradient(#fff 0 8deg, red 8deg 16deg);
+     border-image: repeating-conic-gradient(#fff 0 8deg, red 8deg 16deg);
+  border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block5 {
   border: 20px solid transparent;
-  -o-border-image: linear-gradient(to top, red, orange, black);
-     border-image: linear-gradient(to top, red, orange, black);
+  -o-border-image: linear-gradient(to top, red 33%, orange 33% 66%, black 66% 100%);
+     border-image: linear-gradient(to top, red 33%, orange 33% 66%, black 66% 100%);
   border-image-slice: 1;
   transition: 0.5s;
 }
 .lending__main__gridBlok__block5:hover {
   border: 10px solid transparent;
-  -o-border-image: linear-gradient(to top, red, orange, black);
-     border-image: linear-gradient(to top, red, orange, black);
+  -o-border-image: linear-gradient(to top, red 33%, orange 33% 66%, black 66% 100%);
+     border-image: linear-gradient(to top, red 33%, orange 33% 66%, black 66% 100%);
   border-image-slice: 1;
   transition: 0.5s;
 }
@@ -224,7 +231,7 @@ a {
   margin-right: 1rem;
 }
 .lending__teaser {
-  min-height: 80vh;
+  min-height: 90vh;
   margin-top: 15vh;
 }
 .lending__teaser__photo {
@@ -411,6 +418,7 @@ a {
   pointer-events: none;
   height: 15rem;
   width: 100%;
+  background-size: auto;
 }
 .article__personalities__persona__name {
   z-index: 1;
@@ -434,7 +442,7 @@ a {
   font-size: calc(1rem + 2px);
   padding-left: 1rem;
   padding-top: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   border-left: 1px solid white;
   overflow: auto;
 }
@@ -443,6 +451,9 @@ a {
 }
 .article__personalities__persona:hover {
   color: #ff5000;
+}
+.article__footer {
+  margin-bottom: 3rem;
 }
 
 .petain {

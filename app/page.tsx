@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import headerPhoto from '../public/landing/headerPhoto.png';
 import josephII from '../public/landing/JosephII.png';
-import sidCampeador from '../public/landing/SidCampeador.png';
-import yoshihito from '../public/landing/Yoshihito.png';
+import salvadorDali from '../public/landing/SalvadorDali.png';
+import meiji from '../public/landing/EmperorMeiji.jpg';
 import louisRenault from '../public/landing/LouisRenault.png';
 import richelieu from '../public/landing/Richelieu.png';
 import immanuelKant from '../public/landing/ImmanuelKant.png';
@@ -79,8 +79,8 @@ export default function Home() {
                     <div className="lending__main__gridBlok__block3">
                         <Link href="/error404" className="linkImg">
                             <Image
-                                src={sidCampeador}
-                                alt="sidCampeador"
+                                src={salvadorDali}
+                                alt="salvadorDali"
                                 className="lending__main__gridBlok__imgSize"
                             />{' '}
                         </Link>
@@ -92,8 +92,8 @@ export default function Home() {
                             className="linkImg"
                         >
                             <Image
-                                src={yoshihito}
-                                alt="yoshihito"
+                                src={meiji}
+                                alt="meiji"
                                 className="lending__main__gridBlok__imgSize"
                             />
                         </Link>

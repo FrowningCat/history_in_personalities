@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import philippePetain from '../../public/article/PhilippePetain.png';
-import ferdinandPorsche from '../../public/article/FerdinandPorsche.png';
+import ferdinandPorsche from '../../public/article/FerdinandPorsche.jpeg';
 import cardinalRichelieu from '../../public/article/CardinalRichelieu.png';
 import guntherQuandt from '../../public/article/GuntherQuandt.png';
 import alexandetGreat from '../../public/article/AlexandetGreat.png';
@@ -245,7 +245,7 @@ export default function Article() {
                     Безумные истории
                 </Link>
             </div>
-            <div className="article__personalities">
+            <div className="article__personalities article__footer">
                 <div className="article__personalities__persona">
                     <div className="article__personalities__persona__img">
                         <Image
