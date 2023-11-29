@@ -8,6 +8,28 @@ import p4 from '../../../public/person/philippePetain/p4.png';
 export default function Petain() {
     return (
         <div className="petain">
+            <div className="petain__links">
+                <div className="petain__links__a">
+                    <a href="#1" className="petain__links__a__text link">
+                        Франция после ПМВ
+                    </a>
+                    <a href="#2" className="petain__links__a__text link">
+                        Экономическое состояние
+                    </a>
+                    <a href="#3" className="petain__links__a__text link">
+                        Политическа стабильность в стране
+                    </a>
+                    <a href="#4" className="petain__links__a__text link">
+                        Линия Мажинo
+                    </a>
+                    <a href="#5" className="petain__links__a__text link">
+                        Вооружение
+                    </a>
+                    <a href="#6" className="petain__links__a__text link">
+                        Союзс Великoбританией
+                    </a>
+                </div>
+            </div>
             <div className="petain__title">Aнри Филипп Петен</div>
             <div className="petain__subtitle">Герой Предатель Патриот</div>
             <div className="petain__introductoryText">
@@ -18,7 +40,7 @@ export default function Petain() {
             </div>
             <div className="petain__blokTypeOne">
                 <div className="petain__blokTypeOne__text">
-                    <div className="petain__blokTypeOne__text__title">
+                    <div className="petain__blokTypeOne__text__title" id="1">
                         <text className="petain__blokTypeOne__text__title__letter">
                             Ф
                         </text>
@@ -104,7 +126,7 @@ export default function Petain() {
                     />
                 </div>
                 <div className="petain__blokTypeTwo__text">
-                    <div className="petain__blokTypeTwo__text__title">
+                    <div className="petain__blokTypeTwo__text__title" id="2">
                         <text className="petain__blokTypeTwo__text__title__letter">
                             Э
                         </text>
@@ -139,10 +161,10 @@ export default function Petain() {
                             к
                         </text>
                         <text className="petain__blokTypeTwo__text__title__letter">
-                            а
+                            о
                         </text>
                         <text className="petain__blokTypeTwo__text__title__letter">
-                            о
+                            е
                         </text>
                         <text className="petain__blokTypeTwo__text__title__letter">
                             &nbsp;с
@@ -210,7 +232,7 @@ export default function Petain() {
             </div>
             <div className="petain__blokTypeThree">
                 <div className="petain__blokTypeThree__text">
-                    <div className="petain__blokTypeThree__text__title">
+                    <div className="petain__blokTypeThree__text__title" id="3">
                         <text className="petain__blokTypeThree__text__title__letter">
                             П
                         </text>
@@ -363,7 +385,7 @@ export default function Petain() {
             </div>
             <div className="petain__blokTypeOne">
                 <div className="petain__blokTypeOne__text">
-                    <div className="petain__blokTypeOne__text__title">
+                    <div className="petain__blokTypeOne__text__title" id="4">
                         <text className="petain__blokTypeOne__text__title__letter">
                             Л
                         </text>
@@ -438,7 +460,7 @@ export default function Petain() {
                     />
                 </div>
                 <div className="petain__blokTypeTwo__text">
-                    <div className="petain__blokTypeTwo__text__title">
+                    <div className="petain__blokTypeTwo__text__title" id="5">
                         <text className="petain__blokTypeTwo__text__title__letter">
                             В
                         </text>
@@ -510,7 +532,7 @@ export default function Petain() {
             </div>
             <div className="petain__blokTypeOne">
                 <div className="petain__blokTypeOne__text">
-                    <div className="petain__blokTypeOne__text__title">
+                    <div className="petain__blokTypeOne__text__title" id="6">
                         <text className="petain__blokTypeOne__text__title__letter">
                             С
                         </text>

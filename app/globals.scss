@@ -543,6 +543,37 @@ a {
     font-family: $mainFontFamily;
     background: $mainBackgroundColor;
     overflow: hidden;
+    &__links {
+        position: fixed;
+        margin-left: 2.5vh;
+        margin-top: 2.5vw;
+        border-width: 30px 25px 25px;
+        border-style: solid;
+        border-color: #e95557 #e95557 transparent;
+        &__a {
+            z-index: 1;
+            gap: calc(1rem - 8px);
+            display: none;
+            font-size: calc(1rem + 4px);
+            color: $mainTextColor;
+            padding-left: 4rem;
+            width: 15rem;
+            background: rgba(0, 0, 0, 0.9);
+            &__text:hover {
+                color: $f;
+            }
+        }
+    }
+    &__links:hover {
+        height: 3rem;
+        width: 3rem;
+        border-width: 0;
+        background: white;
+        border-radius: 50%;
+    }
+    &__links:hover &__links__a {
+        display: grid;
+    }
     &__title {
         font-size: 4rem;
         background: linear-gradient(

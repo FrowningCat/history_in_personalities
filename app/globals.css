@@ -461,6 +461,37 @@ a {
   background: #171717;
   overflow: hidden;
 }
+.petain__links {
+  position: fixed;
+  margin-left: 2.5vh;
+  margin-top: 2.5vw;
+  border-width: 30px 25px 25px;
+  border-style: solid;
+  border-color: #e95557 #e95557 transparent;
+}
+.petain__links__a {
+  z-index: 1;
+  gap: calc(1rem - 8px);
+  display: none;
+  font-size: calc(1rem + 4px);
+  color: #999;
+  padding-left: 4rem;
+  width: 15rem;
+  background: rgba(0, 0, 0, 0.9);
+}
+.petain__links__a__text:hover {
+  color: #ff5000;
+}
+.petain__links:hover {
+  height: 3rem;
+  width: 3rem;
+  border-width: 0;
+  background: white;
+  border-radius: 50%;
+}
+.petain__links:hover .petain__links__a {
+  display: grid;
+}
 .petain__title {
   font-size: 4rem;
   background: linear-gradient(to right, blue 40%, white 40% 58%, red 58% 100%);
