@@ -476,6 +476,7 @@ a {
   font-size: calc(1rem + 4px);
   color: #999;
   padding-left: 4rem;
+  min-height: 60vh;
   width: 15rem;
   background: rgba(0, 0, 0, 0.9);
 }
@@ -494,7 +495,7 @@ a {
 }
 .petain__title {
   font-size: 4rem;
-  background: linear-gradient(to right, blue 40%, white 40% 58%, red 58% 100%);
+  background: linear-gradient(to right, blue, white, red);
   -webkit-background-clip: text;
   color: transparent;
   height: 10vh;
@@ -506,7 +507,7 @@ a {
 }
 .petain__subtitle {
   font-size: 2rem;
-  background: linear-gradient(to right, blue 43%, white 43% 54%, red 54% 100%);
+  background: linear-gradient(to right, blue, white, red);
   -webkit-background-clip: text;
   color: transparent;
   height: 5vh;
@@ -557,6 +558,7 @@ a {
   overflow: auto;
 }
 .petain__blokTypeOne__img {
+  z-index: 1;
   pointer-events: none;
   height: 120vh;
   width: 50vw;
@@ -576,7 +578,9 @@ a {
   display: grid;
   height: 80vh;
   width: 50vw;
-  margin-right: 5vw;
+  padding-right: 5vw;
+  justify-content: center;
+  align-items: center;
 }
 .petain__blokTypeTwo__text__title {
   display: flex;
@@ -660,6 +664,9 @@ a {
     justify-content: center;
     align-items: center;
   }
+  .petain__blokTypeTwo__text {
+    padding-right: 15vw;
+  }
   .petain__blokTypeTwo__img {
     overflow: hidden;
     margin-top: 25vh;
@@ -700,7 +707,11 @@ a {
     justify-content: center;
     align-items: center;
   }
+  .petain__blokTypeOne__text {
+    width: 50vw;
+  }
   .petain__blokTypeOne__text__title {
+    font-size: calc(2rem + 8px);
     height: 15vh;
   }
   .petain__blokTypeOne__text__textual {
@@ -715,11 +726,18 @@ a {
     justify-content: center;
     align-items: center;
   }
+  .petain__blokTypeTwo__text {
+    width: 50vw;
+  }
   .petain__blokTypeTwo__text__title {
+    font-size: calc(2rem + 8px);
     height: 15vh;
   }
   .petain__blokTypeTwo__text__textual {
     height: 65vh;
+  }
+  .petain__blokTypeThree__text__title {
+    font-size: calc(2rem + 4px);
   }
 }
 @media (max-width: 567px) {
@@ -767,6 +785,16 @@ a {
   .article__title__dop {
     width: 100vw;
   }
+  .petain__blokTypeOne__img {
+    width: 40vw;
+  }
+  .petain__blokTypeOne__text__title {
+    max-width: 30vw;
+    height: 15vh;
+  }
+  .petain__blokTypeOne__text__textual {
+    height: 65vh;
+  }
   .petain__blokTypeTwo__img {
     margin-left: -5vw;
     overflow: hidden;
@@ -799,23 +827,6 @@ a {
   }
   .article__topBar__links {
     font-size: calc(1rem + 2px);
-  }
-  .article__topBar__title {
-    width: 100vw;
-  }
-  .article__topBar__title__dop {
-    width: 100vw;
-  }
-}
-@media (max-width: 420px) {
-  html {
-    font-size: 8px;
-  }
-  .article__topBar {
-    height: 5vh;
-  }
-  .article__topBar__links {
-    font-size: 1rem;
   }
   .article__topBar__title {
     width: 100vw;
