@@ -463,7 +463,7 @@ a {
 }
 .petain__title {
   font-size: 4rem;
-  background: linear-gradient(to right, blue, white, red);
+  background: linear-gradient(to right, blue 40%, white 40% 58%, red 58% 100%);
   -webkit-background-clip: text;
   color: transparent;
   height: 10vh;
@@ -475,14 +475,24 @@ a {
 }
 .petain__subtitle {
   font-size: 2rem;
-  background: linear-gradient(to right, blue, white, red);
+  background: linear-gradient(to right, blue 43%, white 43% 54%, red 54% 100%);
   -webkit-background-clip: text;
   color: transparent;
   height: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
+}
+.petain__introductoryText {
+  height: 30vh;
+  width: 90vw;
+  margin-left: 5vw;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: calc(1rem + 8px);
+  overflow: auto;
 }
 .petain__blokTypeOne {
   height: 100vh;
@@ -502,7 +512,7 @@ a {
 .petain__blokTypeOne__text__title {
   display: flex;
   align-items: center;
-  height: 30vh;
+  height: 15vh;
   font-size: 3rem;
   color: #ff5000;
 }
@@ -510,9 +520,10 @@ a {
   text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
 }
 .petain__blokTypeOne__text__textual {
-  height: 50vh;
+  height: 65vh;
   color: #999;
   font-size: calc(1rem + 8px);
+  overflow: auto;
 }
 .petain__blokTypeOne__img {
   pointer-events: none;
@@ -539,7 +550,7 @@ a {
 .petain__blokTypeTwo__text__title {
   display: flex;
   align-items: center;
-  height: 30vh;
+  height: 15vh;
   font-size: 3rem;
   color: #ff5000;
 }
@@ -547,9 +558,10 @@ a {
   text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
 }
 .petain__blokTypeTwo__text__textual {
-  height: 50vh;
+  height: 65vh;
   color: #999;
   font-size: calc(1rem + 8px);
+  overflow: auto;
 }
 .petain__blokTypeTwo__img {
   pointer-events: none;
@@ -563,6 +575,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -10vh;
 }
 .petain__blokTypeThree__text {
   width: 90vw;
@@ -570,7 +583,7 @@ a {
 .petain__blokTypeThree__text__title {
   display: flex;
   align-items: center;
-  height: 30vh;
+  height: 15vh;
   font-size: 3rem;
   color: #ff5000;
 }
@@ -578,9 +591,10 @@ a {
   text-shadow: 0px 0px 15px rgba(159, 159, 167, 0.5);
 }
 .petain__blokTypeThree__text__textual {
-  height: 50vh;
+  height: 65vh;
   color: #999;
   font-size: calc(1rem + 8px);
+  overflow: auto;
 }
 
 @media (max-width: 1300px) {
