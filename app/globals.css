@@ -530,6 +530,18 @@ a {
   font-size: calc(1rem + 8px);
   overflow: auto;
 }
+.petain__introductoryText__textP {
+  padding-top: 15vh;
+  color: #999;
+  height: 30vh;
+  width: 90vw;
+  margin-left: 5vw;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: calc(1rem + 8px);
+  overflow: auto;
+}
 .petain__blokTypeOne {
   height: 100vh;
   display: flex;
@@ -581,7 +593,7 @@ a {
 .petain__blokTypeTwo__text {
   display: grid;
   height: 80vh;
-  width: 50vw;
+  width: 80vw;
   padding-right: 5vw;
   justify-content: center;
   align-items: center;
@@ -742,6 +754,7 @@ a {
   }
   .petain__blokTypeTwo__text {
     width: 50vw;
+    margin-right: -5vw;
   }
   .petain__blokTypeTwo__text__title {
     font-size: calc(2rem + 8px);

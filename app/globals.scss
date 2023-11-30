@@ -611,6 +611,18 @@ a {
         color: $mainTextColor;
         font-size: calc(1rem + 8px);
         overflow: auto;
+        &__textP {
+            padding-top: 15vh;
+            color: $mainTextColor;
+            height: 30vh;
+            width: 90vw;
+            margin-left: 5vw;
+            justify-content: center;
+            align-items: center;
+            color: $mainTextColor;
+            font-size: calc(1rem + 8px);
+            overflow: auto;
+        }
     }
     &__blokTypeOne {
         height: 100vh;
@@ -662,7 +674,7 @@ a {
         &__text {
             display: grid;
             height: 80vh;
-            width: 50vw;
+            width: 80vw;
             padding-right: 5vw;
             justify-content: center;
             align-items: center;
@@ -855,6 +867,7 @@ a {
             }
             &__text {
                 width: 50vw;
+                margin-right: -5vw;
                 &__title {
                     font-size: calc(2rem + 8px);
                     height: 15vh;

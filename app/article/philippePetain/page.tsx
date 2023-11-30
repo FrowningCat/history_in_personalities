@@ -708,7 +708,7 @@ export default function Petain() {
                     />
                 </div>
             </div>
-            <div className="petain__introductoryText">
+            <div className="petain__introductoryText__textP">
                 Теперь, когда у нас есть общее представления о политическом и
                 социальном устройстве Франции, предлагю перейти сразу к встречи
                 в Монтуа, опустив начало войны и капитуляцию Франции.
