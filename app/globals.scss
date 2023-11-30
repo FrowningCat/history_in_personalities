@@ -89,6 +89,10 @@ a {
     margin-left: 5vw;
 }
 
+.textSelected {
+    color: dodgerblue;
+}
+
 .anim1 {
     animation: flashing 3s infinite;
 }
@@ -711,6 +715,16 @@ a {
                 font-size: calc(1rem + 8px);
                 overflow: auto;
             }
+        }
+    }
+    &__sources {
+        display: grid;
+        color: $mainTextColor;
+        margin-left: 5vw;
+        gap: 1rem;
+        margin-bottom: 5vh;
+        &__title {
+            font-size: 2rem;
         }
     }
 }

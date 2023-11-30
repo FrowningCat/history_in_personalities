@@ -43,6 +43,10 @@ a {
   margin-left: 5vw;
 }
 
+.textSelected {
+  color: dodgerblue;
+}
+
 .anim1 {
   animation: flashing 3s infinite;
 }
@@ -630,6 +634,16 @@ a {
   color: #999;
   font-size: calc(1rem + 8px);
   overflow: auto;
+}
+.petain__sources {
+  display: grid;
+  color: #999;
+  margin-left: 5vw;
+  gap: 1rem;
+  margin-bottom: 5vh;
+}
+.petain__sources__title {
+  font-size: 2rem;
 }
 
 @media (max-width: 1300px) {
