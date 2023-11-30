@@ -1,8 +1,13 @@
 import Image from 'next/image';
-import p1 from '../../../public/person/philippePetain/p1.png';
-import p2 from '../../../public/person/philippePetain/p2.png';
-import p3 from '../../../public/person/philippePetain/p3.png';
-import p4 from '../../../public/person/philippePetain/p4.png';
+import p1 from '../../../public/person/philippePetain/1.png';
+import p2 from '../../../public/person/philippePetain/2.png';
+import p3 from '../../../public/person/philippePetain/3.png';
+import p4 from '../../../public/person/philippePetain/4.png';
+import p5 from '../../../public/person/philippePetain/5.png';
+import p6 from '../../../public/person/philippePetain/6.png';
+import p7 from '../../../public/person/philippePetain/7.png';
+import p8 from '../../../public/person/philippePetain/8.png';
+import p9 from '../../../public/person/philippePetain/9.png';
 
 export default function Petain() {
     return (
@@ -702,8 +707,8 @@ export default function Petain() {
                 </div>
                 <div className="petain__blokTypeOne__img">
                     <Image
-                        src={p3}
-                        alt="p3"
+                        src={p5}
+                        alt="p5"
                         className="petain__blokTypeOne__img__imgSize linkImg"
                     />
                 </div>
@@ -795,8 +800,8 @@ export default function Petain() {
                 </div>
                 <div className="petain__blokTypeOne__img">
                     <Image
-                        src={p1}
-                        alt="p1"
+                        src={p6}
+                        alt="p6"
                         className="petain__blokTypeOne__img__imgSize linkImg"
                     />
                 </div>
@@ -804,8 +809,8 @@ export default function Petain() {
             <div className="petain__blokTypeTwo">
                 <div className="petain__blokTypeTwo__img">
                     <Image
-                        src={p2}
-                        alt="p2"
+                        src={p7}
+                        alt="p7"
                         className="petain__blokTypeTwo__img__imgSize linkImg"
                     />
                 </div>
@@ -1080,8 +1085,8 @@ export default function Petain() {
                 </div>
                 <div className="petain__blokTypeOne__img">
                     <Image
-                        src={p3}
-                        alt="p3"
+                        src={p8}
+                        alt="p8"
                         className="petain__blokTypeOne__img__imgSize linkImg"
                     />
                 </div>
@@ -1089,8 +1094,8 @@ export default function Petain() {
             <div className="petain__blokTypeTwo">
                 <div className="petain__blokTypeTwo__img">
                     <Image
-                        src={p4}
-                        alt="p4"
+                        src={p9}
+                        alt="p9"
                         className="petain__blokTypeTwo__img__imgSize linkImg"
                     />
                 </div>
