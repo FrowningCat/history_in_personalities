@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import p1 from '../../../public/person/philippePetain/1.png';
 import p2 from '../../../public/person/philippePetain/2.png';
 import p3 from '../../../public/person/philippePetain/3.png';
@@ -1132,6 +1133,14 @@ export default function Petain() {
                         </text>
                     </div>
                 </div>
+            </div>
+            <div className="petain__test">
+                <Link
+                    href="/article/philippePetain/testPage"
+                    className="petain__test__text link"
+                >
+                    Пройти тест дабы закрепить результат
+                </Link>
             </div>
             <div className="petain__sources">
                 <text className="petain__sources__title">Источники:</text>

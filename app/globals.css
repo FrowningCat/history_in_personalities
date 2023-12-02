@@ -321,6 +321,22 @@ a {
   color: darkred;
 }
 
+#testBlock1 {
+  display: grid;
+}
+
+#testBlock2 {
+  display: none;
+}
+
+#testBlock3 {
+  display: none;
+}
+
+#testBlock4 {
+  display: none;
+}
+
 .article {
   font-family: "Playfair Display";
   margin-top: -10vh;
@@ -458,6 +474,50 @@ a {
 }
 .article__footer {
   margin-bottom: 3rem;
+}
+.article__test {
+  display: grid;
+  gap: 30px;
+  margin-top: 30vh;
+}
+.article__test__block {
+  height: 60vh;
+  width: 90vw;
+  margin-left: 5vw;
+  gap: 10px;
+}
+.article__test__block__question {
+  font-size: 3rem;
+  color: #e95557;
+  height: 10rem;
+}
+.article__test__block__answer {
+  height: 10rem;
+  display: grid;
+  font-size: 2rem;
+  color: #999;
+}
+.article__test__block__answer__div {
+  width: 50vw;
+  justify-content: space-between;
+  display: flex;
+}
+.article__test__block__answer__div__chekbox__but {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+.article__test__block__next {
+  font-family: "Playfair Display";
+  color: #e95557;
+  font-size: 2rem;
+  width: 10rem;
+  height: 3rem;
+  align-items: center;
+  text-align: center;
+}
+.article__test__block__next:hover {
+  box-shadow: 0px 0px 15px 5px rgba(159, 159, 167, 0.8);
 }
 
 .petain {
@@ -646,6 +706,14 @@ a {
   color: #999;
   font-size: calc(1rem + 8px);
   overflow: auto;
+}
+.petain__test {
+  color: #999;
+  font-size: 2rem;
+  margin: -10vh 0 5vh 5vw;
+}
+.petain__test__text:hover {
+  color: #e95557;
 }
 .petain__sources {
   display: grid;
