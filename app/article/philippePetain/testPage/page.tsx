@@ -35,6 +35,10 @@ export default function Text() {
     const [checked10, setChecked10] = useState(false);
     const [checked11, setChecked11] = useState(false);
 
+    const [buttonText1, setButtonText1] = useState(0);
+    const [buttonText2, setButtonText2] = useState(0);
+    const [buttonText3, setButtonText3] = useState(0);
+
     function handleClick() {
         if (first == 'testBlock1') {
             setStyle1((first = 'testBlock1None'));
@@ -78,30 +82,30 @@ export default function Text() {
     function number1Change() {
         if (number1 < 3) {
             number1 += 1;
-            btn.textContent = number1;
+            setButtonText1(number1);
         } else {
             number1 = 0;
-            btn.textContent = number1;
+            setButtonText1(number1);
         }
     }
 
     function number2Change() {
         if (number2 < 3) {
             number2 += 1;
-            btn2.textContent = number2;
+            setButtonText2(number2);
         } else {
             number2 = 0;
-            btn2.textContent = number2;
+            setButtonText2(number2);
         }
     }
 
     function number3Change() {
         if (number3 < 3) {
             number3 += 1;
-            btn3.textContent = number3;
+            setButtonText3(number3);
         } else {
             number3 = 0;
-            btn3.textContent = number3;
+            setButtonText3(number3);
         }
     }
 
@@ -174,7 +178,7 @@ export default function Text() {
                                     id="btn"
                                     onClick={number1Change}
                                 >
-                                    {number1}
+                                    {buttonText1}
                                 </button>
                             </div>
                         </div>
