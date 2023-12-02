@@ -590,6 +590,10 @@ a {
                 font-size: 3rem;
                 color: #e95557;
                 height: 10rem;
+                &__img {
+                    width: 15rem;
+                    height: 15rem;
+                }
             }
             &__answer {
                 height: auto;

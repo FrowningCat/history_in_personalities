@@ -515,6 +515,10 @@ a {
   color: #e95557;
   height: 10rem;
 }
+.article__test__block__question__img {
+  width: 15rem;
+  height: 15rem;
+}
 .article__test__block__answer {
   height: auto;
   display: grid;
