@@ -178,7 +178,7 @@ export default function Text() {
                                     id="btn"
                                     onClick={number1Change}
                                 >
-                                    {buttonText1}
+                                    {number1}
                                 </button>
                             </div>
                         </div>
