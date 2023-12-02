@@ -9,7 +9,7 @@ let third = 'testBlock3None';
 let fourth = 'testBlock4None';
 let fifth = 'testBlock5None';
 
-export default function text() {
+export default function Text() {
     const [testBlock1, setStyle1] = useState(first);
     const [testBlock2, setStyle2] = useState(second);
     const [testBlock3, setStyle3] = useState(third);
