@@ -1,6 +1,49 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
+
+let first = 'testBlock1';
+let second = 'testBlock2None';
+let third = 'testBlock3None';
+let fourth = 'testBlock4None';
+let fifth = 'testBlock5None';
 
 export default function text() {
+    const [testBlock1, setStyle1] = useState(first);
+    const [testBlock2, setStyle2] = useState(second);
+    const [testBlock3, setStyle3] = useState(third);
+    const [testBlock4, setStyle4] = useState(fourth);
+    const [testBlock5, setStyle5] = useState(fifth);
+
+    function handleClick() {
+        if (first == 'testBlock1') {
+            setStyle1((first = 'testBlock1None'));
+            setStyle2((second = 'testBlock2'));
+        }
+    }
+
+    function handleClick2() {
+        if (second == 'testBlock2') {
+            setStyle2((second = 'testBlock2None'));
+            setStyle3((third = 'testBlock3'));
+        }
+    }
+
+    function handleClick3() {
+        if (third == 'testBlock3') {
+            setStyle3((third = 'testBlock3None'));
+            setStyle4((fourth = 'testBlock4'));
+        }
+    }
+
+    function handleClick4() {
+        if (fourth == 'testBlock4') {
+            setStyle4((fourth = 'testBlock4None'));
+            setStyle5((fifth = 'testBlock5'));
+        }
+    }
+
     return (
         <div className="article">
             <div className="article__topBar">
@@ -55,7 +98,7 @@ export default function text() {
                 </div>
             </div>
             <div className="article__test">
-                <div className="article__test__block" id="testBlock1">
+                <div className="article__test__block" id={testBlock1}>
                     <div className="article__test__block__question">
                         Расставте события в хранологической последовательности
                     </div>
@@ -91,9 +134,14 @@ export default function text() {
                             </div>
                         </div>
                     </div>
-                    <div className="article__test__block__next link">Далее</div>
+                    <div
+                        className="article__test__block__next link"
+                        onClick={handleClick}
+                    >
+                        Далее
+                    </div>
                 </div>
-                <div className="article__test__block" id="testBlock2">
+                <div className="article__test__block" id={testBlock2}>
                     <div className="article__test__block__question">
                         Что из перечисленного ЛОЖ
                     </div>
@@ -125,9 +173,14 @@ export default function text() {
                             </div>
                         </div>
                     </div>
-                    <div className="article__test__block__next link">Далее</div>
+                    <div
+                        className="article__test__block__next link"
+                        onClick={handleClick2}
+                    >
+                        Далее
+                    </div>
                 </div>
-                <div className="article__test__block" id="testBlock3">
+                <div className="article__test__block" id={testBlock3}>
                     <div className="article__test__block__question">
                         Что из этого являеться ПРАВДОЙ
                     </div>
@@ -173,9 +226,14 @@ export default function text() {
                             </div>
                         </div>
                     </div>
-                    <div className="article__test__block__next link">Далее</div>
+                    <div
+                        className="article__test__block__next link"
+                        onClick={handleClick3}
+                    >
+                        Далее
+                    </div>
                 </div>
-                <div className="article__test__block" id="testBlock4">
+                <div className="article__test__block" id={testBlock4}>
                     <div className="article__test__block__question">
                         Какое событие показано на фото?
                     </div>
@@ -205,7 +263,24 @@ export default function text() {
                             </div>
                         </div>
                     </div>
-                    <div className="article__test__block__next link">Далее</div>
+                    <div
+                        className="article__test__block__next link"
+                        onClick={handleClick4}
+                    >
+                        Далее
+                    </div>
+                </div>
+                <div className="article__test__block" id={testBlock5}>
+                    <div className="article__test__block__question">
+                        Ваш результат
+                    </div>
+                    <div className="article__test__block__answer">
+                        <div className="article__test__block__answer__div">
+                            <div className="article__test__block__answer__div__text">
+                                Вы верно ответили на $ вопросов из 4
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

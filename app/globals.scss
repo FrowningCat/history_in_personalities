@@ -408,15 +408,35 @@ a {
     display: grid;
 }
 
+#testBlock1None {
+    display: none;
+}
+
 #testBlock2 {
+    display: grid;
+}
+#testBlock2None {
     display: none;
 }
 
 #testBlock3 {
+    display: grid;
+}
+#testBlock3None {
     display: none;
 }
 
 #testBlock4 {
+    display: grid;
+}
+#testBlock4None {
+    display: none;
+}
+
+#testBlock5 {
+    display: grid;
+}
+#testBlock5None {
     display: none;
 }
 
@@ -572,7 +592,7 @@ a {
                 height: 10rem;
             }
             &__answer {
-                height: 10rem;
+                height: auto;
                 display: grid;
                 font-size: 2rem;
                 color: $mainTextColor;
@@ -582,6 +602,7 @@ a {
                     display: flex;
                     &__chekbox {
                         &__but {
+                            font-family: $mainFontFamily;
                             font-size: 2rem;
                             width: 3rem;
                             height: 3rem;
