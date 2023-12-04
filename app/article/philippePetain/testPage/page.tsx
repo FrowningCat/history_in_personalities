@@ -407,6 +407,11 @@ export default function Text() {
                                 из 4
                             </div>
                         </div>
+                        <div className="article__test__block__next link">
+                            <Link href="/article" className="link">
+                                Разделы
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
